@@ -1,0 +1,27 @@
+\chapter[Do Rapid Releases Reduce Delivery Delay?]{Do Rapid Releases Reduce
+Delivery Delay?} \label{ch:study34}
+
+\keybox{An earlier version of
+\hyperref[st:study3]{Study}~\ref{st:study3} appear in the proceedings of the
+International Conference on Mining Software Repositories
+(MSR'16)~\cite{da2016impact}.} 
+%Also,
+%the current \hyperref[st:study3]{Studies}~\ref{st:study3} and~\ref{st:study4}
+%compose an extended version of our prior MSR'16 work and is currently under
+%review in the Journal of Empirical Software Engineering.}
+
+\input{chapters/chapter5/introduction}
+\input{chapters/chapter5/empiricalstudy}
+%\input{chapters/chapter5/quantitativestudy}
+%\input{chapters/chapter5/rq1}
+%\input{chapters/chapter5/rq2}
+%\input{chapters/chapter5/rq3}
+%\input{chapters/chapter5/qualitativestudy}
+%\input{chapters/chapter5/rq4}
+%\input{chapters/chapter5/rq5}
+%\input{chapters/chapter5/rq6}
+\input{chapters/chapter5/discussion}
+\input{chapters/chapter5/guidelines}
+\input{chapters/chapter5/threats}
+\input{chapters/chapter5/relatedwork}
+\input{chapters/chapter5/conclusion}

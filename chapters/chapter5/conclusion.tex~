@@ -1,0 +1,47 @@
+\section{Conclusions} \label{sec:conclusion}
+
+In this chapter, we perform a study about the impact that
+rapid release cycles have on delivery delays. In our study, we analyze
+a total of 72,114 issue reports of 111 traditional releases and 73 rapid
+releases of the Firefox project. We obtain the following results:
+
+\begin{itemize}
+
+	\item Although issues tend to be addressed more quickly in the rapid
+		release cycle, addressed issues tend to be delivered by 
+		consumer-visible releases more quickly in the traditional
+		release cycle. However, a rapid release cycle may improve the
+		consistency of the delivery rate of addressed issues (see
+		\hyperref[find18]{Finding}~\ref{find18}).
+	
+	\item We observe that the faster delivery of addressed issues in the
+		traditional releases is partly due to minor-traditional
+		releases. One suggestion for practitioners is that more effort
+		should be invested in accommodating minor releases to issues
+		that are urgent without compromising the quality of the other
+		releases that are being shipped (see
+		\hyperref[find19]{Finding}~\ref{find19}).
+
+	\item The triaging time of issues is not significantly different among
+		the traditional and rapid releases (see
+		\hyperref[find18]{Finding}~\ref{find18}).
+
+	\item The total time that is spent from the issue report date to its
+		integration into a release is not significantly different
+		between traditional and rapid releases (see
+		\hyperref[find17]{Finding}~\ref{find17}).
+
+	\item In traditional releases, addressed issues are less likely to be
+		delayed if they are addressed recently in the backlog. On the
+		other hand, in rapid releases, addressed issues are less likely
+		to be delayed if they are addressed recently in the current
+		release cycle (see \hyperref[find22]{Finding}~\ref{find22}). 
+
+\end{itemize}
+
+This study is the first to empirically check whether rapid releases ship
+addressed issues more quickly than traditional releases. Our findings suggest
+that there is no silver bullet to deliver addressed issues more quickly.
+Instead, rapid releases may increase the consistency of the delivery rate of
+addressed issues to end users.
+

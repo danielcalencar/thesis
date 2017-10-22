@@ -1,0 +1,973 @@
+@ARTICLE{bowman:reasoning,
+	AUTHOR = "Mic Bowman and Saumya K. Debray and Larry L. Peterson",
+	TITLE = "Reasoning About Naming Systems",
+	JOURNAL = "ACM Trans. Program. Lang. Syst.",
+	VOLUME = {15},
+	NUMBER = {5},
+	PAGES = {795-825},
+	MONTH = "November",
+	YEAR = {1993}	}
+
+@ARTICLE{braams:babel,
+	AUTHOR = "Johannes Braams",
+	TITLE = "Babel, a Multilingual Style-Option System for Use with LaTeX's Standard Document Styles",
+	JOURNAL = {TUGboat},
+	VOLUME = {12},
+	NUMBER = {2},
+	PAGES = {291-301},
+	MONTH = "June",
+	YEAR = {1991}	}
+
+@INPROCEEDINGS{clark:pct,
+	AUTHOR = "Malcolm Clark",
+	TITLE = "Post Congress Tristesse",
+	BOOKTITLE = "TeX90 Conference Proceedings",
+	PAGES = "84-89",
+	ORGANIZATION = "TeX Users Group",
+	MONTH = "March", 
+	YEAR = {1991}	}
+
+@ARTICLE{herlihy:methodology,
+	AUTHOR = "Maurice Herlihy",
+	TITLE = "A Methodology for Implementing Highly Concurrent
+	Data Objects",
+	JOURNAL = {ACM Trans. Program. Lang. Syst.},
+	VOLUME = {15},
+	NUMBER = {5},
+	PAGES = {745-770},
+	MONTH = "November",
+	YEAR = {1993}	}
+
+@BOOK{Lamport:LaTeX,
+	AUTHOR = "Leslie Lamport",
+	TITLE = "LaTeX User's Guide and Document Reference Manual",
+	PUBLISHER = "Addison-Wesley Publishing Company",
+	ADDRESS = "Reading, Massachusetts",
+	YEAR = "1986"	}
+
+@BOOK{salas:calculus,
+	AUTHOR = "S.L. Salas and Einar Hille",
+	TITLE = "Calculus: One and Several Variable",
+	PUBLISHER = "John Wiley and Sons",
+	ADDRESS = "New York",
+	YEAR = "1978"	}
+	
+@BOOK{DecisionTree2008,
+	AUTHOR = "Rokach, Lior and Maimon, O",
+	TITLE = "Data mining with decision trees: theory and applications",
+	PUBLISHER = "World Scientific Pub Co Inc",
+	YEAR = "2008"	}
+
+@inproceedings{Giger2010,
+ author = {Giger, Emanuel and Pinzger, Martin and Gall, Harald},
+ title = {Predicting the Fix Time of Bugs},
+ booktitle = {Proceedings of the 2nd International Workshop on Recommendation
+Systems for Software Engineering},
+ series = {RSSE '10},
+ year = {2010},
+ pages = {52--56}
+}
+
+@inproceedings{Nagappan2005,
+  title={Use of relative code churn measures to predict system defect density},
+  author={Nagappan, Nachiappan and Ball, Thomas},
+  booktitle={Software Engineering, 2005. ICSE 2005. Proceedings. 27th 
+  International Conference on},
+  pages={284--292},
+  year={2005}
+}
+
+@inproceedings{Marks2011,
+ author = {Marks, Lionel and Zou, Ying and Hassan, Ahmed E.},
+ title = {Studying the Fix-time for Bugs in Large Open Source Projects},
+ booktitle = {Proceedings of the 7th International Conference on Predictive
+Models in Software Engineering},
+ series = {Promise '11},
+ year = {2011},
+ pages = {11:1--11:8}
+} 
+
+@inproceedings{Zhang2012,
+author={Feng Zhang and Khomh, F. and Ying Zou and Hassan, A.E.},
+booktitle={Reverse Engineering (WCRE), 2012 19th Working Conference on},
+title={An Empirical Study on Factors Impacting Bug Fixing Time},
+year={2012},
+month={Oct},
+pages={225-234}
+}
+
+@inproceedings{Weib2007,
+ author = {Weib, Cathrin and Premraj, Rahul and Zimmermann, Thomas and
+Zeller, Andreas},
+ title = {How Long Will It Take to Fix This Bug?},
+ booktitle = {Proceedings of the Fourth International Workshop on Mining
+Software Repositories},
+ series = {MSR '07},
+ year = {2007},
+ pages = {1--}
+} 
+
+@inproceedings{Zhang2013,
+ author = {Zhang, Hongyu and Gong, Liang and Versteeg, Steve},
+ title = {Predicting Bug-fixing Time: An Empirical Study of Commercial Software Projects},
+ booktitle = {Proceedings of the 2013 International Conference on Software Engineering},
+ series = {ICSE '13},
+ year = {2013},
+ pages = {1042--1051}
+}
+
+@inproceedings{Kim2006,
+ author = {Kim, Sunghun and Whitehead,Jr., E. James},
+ title = {How Long Did It Take to Fix Bugs?},
+ booktitle = {Proceedings of the 2006 International Workshop on Mining Software
+Repositories},
+ series = {MSR '06},
+ year = {2006},
+ pages = {173--174}
+} 
+
+@INPROCEEDINGS{Anbalagan2009, 
+author={Anbalagan, P. and Vouk, M.}, 
+booktitle={Proceedings of the 2009 IEEE International Conference on Software
+Maintenance}, 
+title={On predicting the time taken to correct bug reports in open source
+projects}, 
+series={ICSM '09},
+year={2009}, 
+month={Sept}, 
+pages={523-526} 
+}
+
+@inproceedings{Anvik2005,
+ author = {Anvik, John and Hiew, Lyndon and Murphy, Gail C.},
+ title = {Coping with an Open Bug Repository},
+ booktitle = {Proceedings of the 2005 OOPSLA Workshop on Eclipse Technology
+eXchange},
+ series = {eclipse '05},
+ year = {2005},
+ pages = {35--39}
+}
+
+@inproceedings{Hassan2006,
+ author = {Hassan A E, Zhang K},
+ title = {Using decision trees to predict the certification result of a build},
+ booktitle = {Proceedings of the 21st IEEE/ACM international conference on automated software},
+ series = {ASE '06},
+ year = {2006},
+ pages = {189--198}
+}
+
+@inproceedings{Sayyad2001,
+ author = {Sayyad J, Lethbridge C},
+ title = {Supporting software maintenance by mining software update records},
+ booktitle = {Proceedings of the IEEE International Conference on Software Maintenance},
+ series = {ICSM '01},
+ year = {2001},
+ pages = {22--198}
+}
+
+@inproceedings{RandomForest2001,
+ author = {L. Breiman},
+ title = {Random Forests},
+ booktitle = {Machine Learning},
+ series = {Springer Journal no. 10994},
+ year = {2001},
+ pages = {5--32}
+ }
+ 
+@article{Hall2009,
+ author = {Hall, Mark and Frank, Eibe and Holmes, Geoffrey and Pfahringer,
+Bernhard and Reutemann, Peter and Witten, Ian H.},
+ title = {The WEKA data mining software: an update},
+ journal = {SIGKDD Exploration Newsletter},
+ year = {2009},
+ pages = {10--18}
+}
+
+ @book{Quinlan1993,
+    address = {San Mateo, CA},
+    author = {Ross Quinlan},
+    publisher = {Morgan Kaufmann Publishers},
+    title = {C4.5: Programs for Machine Learning},
+    year = {1993}
+ }
+ 
+ @ONLINE{bug883554,
+   title = {FireFox, {B}ug 883554, http://goo.gl/OwzSs5},
+   note = {Accessed: 17-04-2014},
+ } 
+ 
+ @ONLINE{bug4914,
+   title = {Argo{UML}, {B}ug 4914, http://goo.gl/IoK56R},
+   note = {Accessed: 17-04-2014},
+ }
+ 
+ @ONLINE{argoUml,
+   title = {Argo{UML}, http://argouml.tigris.org/},
+   note = {Accessed: 17-04-2014},
+ }
+ 
+ @ONLINE{argoUml_priorities,
+   title = {Argo{UML} bug priority levels, http://goo.gl/1T6Xhu},
+   note = {Accessed: 17-04-2014},
+ }
+ 
+ @ONLINE{eclipse,
+   title = {Eclipse, https://www.eclipse.org/},
+   note = {Accessed: 17-04-2014},
+ }
+ 
+ @ONLINE{Rlanguage,
+	 author = {R Core Team},
+	 title = {R: A Language and Environment for Statistical Computing,
+		 http://www.R-project.org/},
+		 note = {Accessed: 22-01-2015},
+ }
+
+ @ONLINE{rms,
+	 author = {Harrell Jr FE},
+	 title = {rms: Regression Modeling Strategies,
+		 http://biostat.mc.vanderbilt.edu/rms},
+		 note = {Accessed: 22-01-2015},
+ }
+
+
+
+
+@book{harrell2001regression,
+	title={Regression modeling strategies: with applications to linear
+		models, logistic regression, and survival analysis},
+	author={Harrell, Frank E},
+	year={2001},
+	publisher={Springer}
+}
+
+@book{hosmer2004applied,
+  title={Applied logistic regression},
+  author={Hosmer Jr, David W and Lemeshow, Stanley},
+  year={2004},
+  publisher={John Wiley \& Sons}
+}
+
+@article{scott1974cluster,
+  title={A cluster analysis method for grouping means in the analysis of variance},
+  author={Scott, AJ and Knott, M},
+  journal={Biometrics},
+  pages={507--512},
+  year={1974},
+  publisher={JSTOR}
+}
+
+
+ @ONLINE{eclipsePriority,
+   title = {Eclipse {H}ow to use {B}ug{Z}illa, http://goo.gl/XuR43g},
+   note = {Accessed: 17-04-2014},
+ }
+ 
+ @ONLINE{argoUmlReleaseNotes,
+   title = {Argo{UML} {R}elease {N}otes, http://goo.gl/rJGGVd},
+   note = {Accessed: 20-04-2014},
+ }
+ 
+ @ONLINE{argoUmlReleaseNotes_b,
+   title = {Argo{UML} {R}elease {N}otes, http://goo.gl/nbdXp7},
+   note = {Accessed: 20-04-2014},
+ }
+ 
+ @ONLINE{eclipseReleaseNotes, 
+   title = {Eclipse {R}elease {N}otes, http://goo.gl/arJJ0u},
+   note = {Accessed: 20-04-2014},
+ }
+ 
+ @ONLINE{firefoxReleaseNotes,
+   title = {Firefox {R}elease {N}otes, http://goo.gl/x8htzm},
+   note = {Accessed: 20-04-2014},
+ }
+ 
+ @ONLINE{firefoxRelease17,
+   title = {Firefox {R}elease {N}otes, http://goo.gl/KHKYCW},
+   note = {Accessed: 20-04-2014},
+ }
+ 
+ @ONLINE{bugzilla,
+   title = {Bugzilla {P}roject {S}ite, http://goo.gl/rLxlUv},
+   note = {Accessed: 20-04-2014},
+ }
+ 
+ @ONLINE{issuezilla,
+   title = {IssueZilla {P}roject {S}ite, http://goo.gl/6gdXkj},
+   note = {Accessed: 20-04-2014},
+ }
+ 
+ @ONLINE{bigrfPackage,
+   title = {Random {F}orest {R} {P}ackage, http://goo.gl/fyyd33},
+   note = {Accessed: 20-04-2014},
+ }
+ 
+ @ONLINE{firefoxFlags,
+   title = {Firefox releases tracking flags, 
+   https://wiki.mozilla.org/Releases/Flags},
+   note = {Accessed: 20-04-2014},
+ }
+ 
+ @ONLINE{bug778073,
+   title = {Bug with activities after issue was addressed, 
+   http://goo.gl/V7qL6g},
+   note = {Accessed: 20-04-2014},
+ }
+ 
+ @ONLINE{bugCycle,
+   title = {Life cycle of a {B}ug, 
+   http://goo.gl/nBMhaf},
+   note = {Accessed: 20-04-2014},
+ }
+ 
+ @ONLINE{bugFields,
+   title = {Bugzilla fields, 
+   http://goo.gl/jdBKWD},
+   note = {Accessed: 20-04-2014},
+ }
+
+
+@ONLINE{eclipsefreeze,
+	title = {Code freeze plan of the Eclipse project, 
+		http://eclipse.org/eclipse/development/plans/freeze\_plan\_4\_4.php},
+		note = {Accessed: 22-01-2015},
+}
+ 
+  @ONLINE{eclipseReleng,
+    title = {Eclipse {C}ommiters, {C}ontributors and {C}ouncils, 
+    http://goo.gl/q4vZzl},
+    note = {Accessed: 14-07-2014},
+  }
+  
+  @ONLINE{firefoxReleng,
+    title = {Firefox {R}elease {E}ngineering, 
+    http://goo.gl/gbVXSK},
+    note = {Accessed: 14-07-2014},
+  }
+ 
+ @ONLINE{firefox,
+    title = "Mozilla {F}irefox, http://goo.gl/Qyizd2",
+    note = {Accessed: 17-04-2014},
+  }
+
+@inproceedings{Wu2011,
+ author = {Wu, Rongxin and Zhang, Hongyu and Kim, Sunghun and Cheung, 
+Shing-Chi},
+ title = {ReLink: Recovering Links Between Bugs and Changes},
+ booktitle = {Proceedings of the 19th ACM SIGSOFT Symposium and the 13th 
+European Conference on Foundations of Software Engineering},
+ series = {ESEC/FSE '11},
+ year = {2011},
+ pages = {15--25}
+} 
+
+@inproceedings{Bachmann2010,
+ author = {Bachmann, Adrian and Bird, Christian and Rahman, Foyzur and Devanbu, 
+Premkumar and Bernstein, Abraham},
+ title = {The Missing Links: Bugs and Bug-fix Commits},
+ booktitle = {Proceedings of the Eighteenth ACM SIGSOFT International Symposium 
+on Foundations of Software Engineering},
+ series = {FSE '10},
+ year = {2010},
+ pages = {97--106}
+} 
+
+@inproceedings{Guo2010,
+ author = {Guo, Philip J. and Zimmermann, Thomas and Nagappan, Nachiappan and 
+Murphy, Brendan},
+ title = {Characterizing and Predicting Which Bugs Get Fixed: An Empirical Study 
+of Microsoft Windows},
+ booktitle = {Proceedings of the 32Nd ACM/IEEE International Conference on 
+Software Engineering - Volume 1},
+ series = {ICSE '10},
+ year = {2010},
+ pages = {495--504}
+} 
+
+@inproceedings{Bhattacharya2011,
+ author = {Bhattacharya, Pamela and Neamtiu, Iulian},
+ title = {Bug-fix Time Prediction Models: Can We Do Better?},
+ booktitle = {Proceedings of the 8th Working Conference on Mining Software 
+Repositories},
+ series = {MSR '11},
+ year = {2011},
+ pages = {207--210}
+} 
+
+@inproceedings{Panjer2007,
+ author = {Panjer, Lucas D.},
+ title = {Predicting Eclipse Bug Lifetimes},
+ booktitle = {Proceedings of the Fourth International Workshop on Mining 
+Software Repositories},
+ series = {MSR '07},
+ year = {2007},
+ pages = {29--}
+} 
+
+@inproceedings{Herraiz2008,
+ author = {Herraiz, Israel and German, Daniel M. and Gonzalez-Barahona, Jesus M. 
+and Robles, Gregorio},
+ title = {Towards a Simplification of the Bug Report Form in Eclipse},
+ booktitle = {Proceedings of the 2008 International Working Conference on Mining 
+Software Repositories},
+ series = {MSR '08},
+ year = {2008},
+ pages = {145--148}
+} 
+
+@inproceedings{Hooimeijer2007,
+ author = {Hooimeijer, Pieter and Weimer, Westley},
+ title = {Modeling Bug Report Quality},
+ booktitle = {Proceedings of the Twenty-second IEEE/ACM International Conference 
+on Automated Software Engineering},
+ series = {ASE '07},
+ year = {2007},
+ pages = {34--43}
+} 
+
+@inproceedings{Jiang2013,
+ author = {Jiang, Yujuan and Adams, Bram and German, Daniel M.},
+ title = {Will My Patch Make It? And How Fast?: Case Study on the Linux Kernel},
+ booktitle = {Proceedings of the 10th Working Conference on Mining Software
+Repositories},
+ series = {MSR '13},
+ year = {2013},
+ pages = {101--110}
+}
+
+@inproceedings{Jeong2009,
+  title={Improving bug triage with bug tossing graphs},
+  author={Jeong, Gaeul and Kim, Sunghun and Zimmermann, Thomas},
+  booktitle={Proceedings of the the 7th joint meeting of the European software 
+  engineering conference and the ACM SIGSOFT symposium on The foundations of 
+  software engineering},
+  pages={111--120},
+  year={2009}
+}
+
+@INPROCEEDINGS{Saha2014, 
+author={Saha, R.K. and Khurshid, S. and Perry, D.E.}, 
+booktitle={2014 Software Evolution Week - IEEE Conference onSoftware
+Maintenance, Reengineering and Reverse Engineering (CSMR-WCRE)},            
+title={An empirical study of long lived bugs}, 
+year={2014}, 
+month={Feb}, 
+pages={144-153}
+}
+
+@inproceedings{Mantyla2013,
+  title={On Rapid Releases and Software Testing},
+  author={Mantyla, Mika V and Khomh, Foutse and Adams, Bram and Engstrom, 
+  Emelie and Petersen, Kai},
+  booktitle={Software Maintenance (ICSM), 2013 29th IEEE International 
+  Conference on},
+  pages={20--29},
+  year={2013}
+}
+
+@article{Mockus:2002,
+ author = {Mockus, Audris and Fielding, Roy T. and Herbsleb, James D.},
+ title = {Two Case Studies of Open Source Software Development: Apache and 
+ Mozilla},
+ journal = {ACM Trans. Softw. Eng. Methodol.},
+ volume = {11},
+ number = {3},
+ year = {2002},
+ pages = {309--346}
+}
+
+@inproceedings{Anvik2006,
+ author = {Anvik, John and Hiew, Lyndon and Murphy, Gail C.},
+ title = {Who Should Fix This Bug?},
+ booktitle = {Proceedings of the 28th International Conference on Software 
+Engineering},
+ series = {ICSE '06},
+ year = {2006},
+ pages = {361--370}
+}
+
+@inproceedings{schroter2010stack,
+  title={Do stack traces help developers fix bugs?},
+  author={Schroter, Adrian and Bettenburg, Nicolas and Premraj, Rahul},
+  booktitle={Mining Software Repositories (MSR), 2010 7th IEEE Working Conference on},
+  pages={118--121},
+  year={2010}
+}
+
+@inproceedings{costa2014empirical,
+  title={An Empirical Study of Delays in the Integration of Addressed Issues},
+  author={Costa, Daniel Alencar da and Abebe, Surafel Lemma and McIntosh, Shane and Kulesza, Uir{\'a} and Hassan, Ahmed E},
+  booktitle={Software Maintenance and Evolution (ICSME), 2014 IEEE International Conference on},
+  pages={281--290},
+  year={2014}
+}
+
+@article{brier1950verification,
+  title={Verification of forecasts expressed in terms of probability},
+  author={Brier, Glenn W},
+  journal={Monthly weather review},
+  volume={78},
+  number={1},
+  pages={1--3},
+  year={1950}
+}
+
+@misc{kendall1990correlation,
+  title={Correlation methods},
+  author={Kendall, Maurice and Gibbons, JDR},
+  year={1990},
+  publisher={Oxford: Oxford University Press}
+}
+
+@book{mythical,
+  title={The mythical man-month},
+  author={Brooks, Frederick P},
+  volume={1995},
+  year={1975},
+  publisher={Addison-Wesley Reading, MA}
+}
+
+@article{springertexts,
+  title={Springer Texts in Statistics},
+  author={Olkin, George Casella Stephen Fienberg Ingram},
+  year={2002},
+}
+
+@article{sarle1990varclus,
+  title={The VARCLUS procedure},
+  author={Sarle, WS},
+  journal={SAS/STAT User's Guide,},
+  year={1990}
+}
+@article{efron1986biased,
+  title={How biased is the apparent error rate of a prediction rule?},
+  author={Efron, Bradley},
+  journal={Journal of the American Statistical Association},
+  volume={81},
+  number={394},
+  pages={461--470},
+  year={1986},
+  publisher={Taylor \& Francis}
+}
+
+@inproceedings{leys2013detecting,
+  title={Detecting outliers: Do not use standard deviation around the mean, use absolute deviation around the median},
+  author={Leys, Christophe and Ley, Christophe and Klein, Olivier and Bernard, Philippe and Licata, Laurent},
+  booktitle={Experimental Social Psychology Journal},
+  volume={49},
+  pages={764--766},
+  year={2013}
+}
+
+@inproceedings{howell2005median,
+  title={Median Absolute Deviation},
+  author={Howell, David C},
+  booktitle={Encyclopedia of Statistics in Behavioral Science},
+  year={2005}
+}
+
+@article{rahman2015release,
+  title={Release stabilization on linux and chrome},
+  author={Rahman, Md Tajmilur and Rigby, Peter C},
+  journal={IEEE Software},
+  volume={32},
+  number={2},
+  year={2015}
+}
+
+@article{hanley1982meaning,
+  title={The meaning and use of the area under a receiver operating characteristic (ROC) curve.},
+  author={Hanley, James A and McNeil, Barbara J},
+  journal={Radiology},
+  volume={143},
+  number={1},
+  pages={29--36},
+  year={1982}
+}
+
+@article{kruskal1952use,
+  title={Use of ranks in one-criterion variance analysis},
+  author={Kruskal, William H and Wallis, W Allen},
+  journal={Journal of the American statistical Association},
+  volume={47},
+  number={260},
+  pages={583--621},
+  year={1952},
+  publisher={Taylor \& Francis}
+}
+
+@article{dunn1964multiple,
+  title={Multiple comparisons using rank sums},
+  author={Dunn, Olive Jean},
+  journal={Technometrics},
+  volume={6},
+  number={3},
+  pages={241--252},
+  year={1964},
+  publisher={Taylor \& Francis}
+}
+
+@book{grissom2012effect,
+  title={Effect sizes for research: Univariate and multivariate applications},
+  author={Grissom, Robert J and Kim, John J},
+  year={2012},
+  publisher={Routledge}
+}
+
+@inproceedings{romano_2006,
+  title = {Should we really be using t-test and cohen's d for evaluating group differences on the NSSE and other surveys?},
+  author = {Romano, Jeanine and Kromrey, Jeffrey D and Coraggio, Jesse and Skowronek, Jeff},
+  booktitle = {Annual meeting of the Florida Association of Institutional Research},
+  year = {2006}
+}
+
+@article{dunn1961multiple,
+  title={Multiple comparisons among means},
+  author={Dunn, Olive Jean},
+  journal={Journal of the American Statistical Association},
+  volume={56},
+  number={293},
+  pages={52--64},
+  year={1961},
+  publisher={Taylor \& Francis Group}
+}
+
+@inproceedings{cliff1993dominance,
+  title={Dominance statistics: Ordinal analyses to answer ordinal questions.},
+  author={Cliff, Norman},
+  booktitle={Psychological Bulletin},
+  volume={114},
+  number={3},
+  pages={494-509},
+  year={1993}
+}
+
+@inproceedings{wilks2011statistical,
+	title={Statistical methods in the atmospheric sciences},
+	author={Wilks, Daniel S},
+	volume={100},
+	year={2011},
+	publisher={Academic press}
+}
+
+@article{tian2015unreliability,
+  title={On the unreliability of bug severity data},
+  author={Tian, Yuan and Ali, Nasir and Lo, David and Hassan, Ahmed E},
+  journal={Empirical Software Engineering},
+  pages={1--26},
+  year={2015},
+  publisher={Springer}
+}
+
+@inproceedings{kampstra2008beanplot,
+  title={Beanplot: A boxplot alternative for visual comparison of distributions},
+  author={Kampstra, Peter and others},
+  booktitle={Journal of Statistical Software},
+  volume={28},
+  number={1},
+  pages={1--9},
+  year={2008}
+} 
+
+@inproceedings{giuliano2008,
+  author    = {Giuliano Antoniol and
+               Kamel Ayari and
+               Massimiliano Di Penta and
+               Foutse Khomh and
+               Yann{-}Ga{\"{e}}l Gu{\'{e}}h{\'{e}}neuc},
+  title     = {Is it a bug or an enhancement?: a text-based approach to classify
+               change requests},
+  booktitle = {Proceedings of the 2008 conference of the Centre for Advanced Studies
+               on Collaborative Research (CASCON)},
+  pages     = {23-37},
+  year      = {2008},
+}
+
+@inproceedings{subramaniam2009determinants,
+  title={Determinants of open source software project success: A longitudinal study},
+  author={Subramaniam, Chandrasekar and Sen, Ravi and Nelson, Matthew L},
+  booktitle={Journal of Decision Support Systems},
+  volume={46},
+  number={2},
+  pages={576--585},
+  year={2009},
+  publisher={Elsevier}
+}
+
+@article{delone2003delone,
+  title={The DeLone and McLean model of information systems success: a ten-year update},
+  author={Delone, William H and McLean, Ephraim R},
+  journal={Journal of management information systems},
+  volume={19},
+  number={4},
+  pages={9--30},
+  year={2003},
+}
+
+@article{herbsleb2003empirical,
+  title={An empirical study of speed and communication in globally distributed software development},
+  author={Herbsleb, James D. and Mockus, Audris},
+  journal={IEEE Transactions on software engineering},
+  volume={29},
+  number={6},
+  pages={481--494},
+  year={2003},
+  publisher={IEEE}
+}
+
+@inproceedings{riskyissues2015a,
+	author    = {Morakot, Choetkiertikul and Hoa Khanh, Dam and Truyen, Tran and Aditya, Ghose},
+	title     = {Characterization and Prediction of Issue-Related Risks in Software
+		Projects},
+	booktitle = {12th {IEEE/ACM} Working Conference on Mining Software Repositories,
+		{MSR} 2015, Florence, Italy, May 16-17, 2015},
+	pages     = {280--291},
+	year      = {2015},
+}
+
+@inproceedings{riskyissues2015b,
+	author={Morakot, Choetkiertikul and Hoa Khanh, Dam and Truyen, Tran and Aditya, Ghose},
+	title={Predicting delays in software projects using networked classification},
+	booktitle = {30th {IEEE/ACM} International Conference on Automated Software Engineering {ASE},
+		Lincoln, Nebraska, USA, November 9-13, 2015},
+	year={2015},
+}
+
+
+
+@book{freedman2009statistical,
+  title={Statistical models: theory and practice},
+  author={Freedman, David A},
+  year={2009},
+  publisher={cambridge university press}
+}
+
+@techreport{steel1960principles,
+  title={Principles and procedures of statistics: with special reference to the biological sciences},
+  author={Steel, Robert GD and James, H},
+  year={1960},
+  institution={New York, US: McGraw-Hill}
+}
+
+@article{choi2012predicting,
+  title={Predicting the present with Google Trends},
+  author={Choi, Hyunyoung and Varian, Hal},
+  journal={Economic Record},
+  volume={88},
+  number={s1},
+  pages={2--9},
+  year={2012},
+  publisher={Wiley Online Library}
+}
+
+@article{bersani2016association,
+  title={Association of dimensional psychological health measures with telomere length in male war veterans},
+  author={Bersani, Francesco S and Lindqvist, Daniel and Mellon, Synthia H and Epel, Elissa S and Yehuda, Rachel and Flory, Janine and Henn-Hasse, Clare and Bierer, Linda M and Makotkine, Iouri and Abu-Amara, Duna and others},
+  journal={Journal of affective disorders},
+  volume={190},
+  pages={537--542},
+  year={2016},
+  publisher={Elsevier}
+}
+
+@inproceedings{da2016impact,
+  title={The impact of switching to a rapid release cycle on the integration
+	  delay of addressed issues: an empirical study of the mozilla firefox
+		  project},
+  author={da Costa, Daniel Alencar and McIntosh, Shane and Kulesza, Uir{\'a} and Hassan, Ahmed E},
+  booktitle={Proceedings of the 13th International Workshop on Mining Software Repositories},
+  pages={374--385},
+  year={2016},
+  organization={ACM}
+}
+
+@inproceedings{beck2000extreme,
+  title={Extreme programming explained: embrace change},
+  author={Beck, Kent},
+  year={2000},
+  publisher={Addison-Wesley Professional}
+}
+
+@inproceedings{baskerville2004short,
+  title={Short cycle time systems development},
+  author={Baskerville, Richard and Pries-Heje, Jan},
+  booktitle={Information Systems Journal},
+  volume={14},
+  number={3},
+  pages={237--264},
+  year={2004}
+}
+
+@inproceedings{adams2016saner,
+  Author = {Bram Adams and Shane McIntosh},
+  Title = {{Modern Release Engineering in a Nutshell: Why Researchers should Care}},
+  Year = {2016},
+  Booktitle = {Proceedings of the 23rd International Conference on Software Analysis, Evolution, and Reengineering (SANER)},
+  Pages = {78--90}
+}
+
+@inproceedings{mantyla2014rapid,
+  title={On rapid releases and software testing: a case study and a semi-systematic literature review},
+  author={M{\"a}ntyl{\"a}, Mika V and Adams, Bram and Khomh, Foutse and Engstr{\"o}m, Emelie and Petersen, Kai},
+  booktitle={Journal of Empirical Software Engineering},
+  pages={1--42},
+  year={2014},
+  publisher={Springer}
+}
+
+@inproceedings{souza2014rapid,
+  title={Do Rapid Releases Affect Bug Reopening? A Case Study of Firefox},
+  author={Souza, Rodrigo and Chavez, Christina and Bittencourt, Roberto A},
+  booktitle={Proceedings of the Brazilian Symposium on Software Engineering (SBES)},
+  pages={31--40},
+  year={2014},
+  organization={IEEE}
+}
+
+@inproceedings{souzabackout,
+  title={Rapid Releases and Patch Backouts: A Software Analytics Approach},
+  author={Souza, Rodrigo and Chavez, Christina and Bittencourt, Roberto},
+  booktitle={IEEE Software Journal},
+  volume={32},
+  number={2},
+  pages={89--96},
+  year={2015},
+  publisher={IEEE}
+}
+
+@inproceedings{baysal2011tale,
+  title={A tale of two browsers},
+  author={Baysal, Olga and Davis, Ian and Godfrey, Michael W},
+  booktitle={Proceedings of the 8th Working Conference on Mining Software
+	  Repositories (MSR) },
+  pages={238--241},
+  year={2011},
+  organization={ACM}
+}
+
+@inproceedings{khomh2012faster,
+  title={Do faster releases improve software quality? an empirical case study of mozilla firefox},
+  author={Khomh, Foutse and Dhaliwal, Tejinder and Zou, Ying and Adams, Bram},
+  booktitle={Proceedings of the 9th IEEE Working Conference on Mining
+	  Software Repositories (MSR)},
+  pages={179--188},
+  year={2012},
+  organization={IEEE}
+}
+
+
+
+
+@inproceedings{singer1999using,
+  title={Using the American Psychological Association (APA) style guidelines to report experimental results},
+  author={Singer, Janice},
+  booktitle={Proceedings of Workshop on Empirical Studies in Software Maintenance},
+  pages={71--75},
+  year={1999}
+}
+
+@inproceedings{iasonos2008build,
+  title={How to build and interpret a nomogram for cancer prognosis},
+  author={Iasonos, Alexia and Schrag, Deborah and Raj, Ganesh V and Panageas, Katherine S},
+  booktitle={Journal of Clinical Oncology},
+  volume={26},
+  number={8},
+  pages={1364--1370},
+  year={2008},
+  publisher={American Society of Clinical Oncology}
+}
+
+@book{groundtheorybook,
+  title={Constructing grounded theory},
+  author={Charmaz, Kathy},
+  year={2014},
+  publisher={Sage}
+} 
+
+@inproceedings{shihab2010predicting,
+  title={Predicting re-opened bugs: A case study on the eclipse project},
+  author={Shihab, Emad and Ihara, Akinori and Kamei, Yasutaka and Ibrahim, Walid M and Ohira, Masao and Adams, Bram and Hassan, Ahmed E and Matsumoto, Ken-ichi},
+  booktitle={Proceedings of 17th Working Conference on Reverse Engineering (WCRE)},
+  pages={249--258},
+  year={2010},
+  organization={IEEE}
+}
+
+@book{fisher1925statistical,
+  title={Statistical methods for research workers},
+  author={Fisher, Ronald Aylmer},
+  year={1925},
+  publisher={Genesis Publishing Pvt Ltd}
+}
+
+@article{spearman1904proof,
+  title={The proof and measurement of association between two things},
+  author={Spearman, Charles},
+  journal={The American journal of psychology},
+  volume={15},
+  number={1},
+  pages={72--101},
+  year={1904},
+  publisher={JSTOR}
+}
+
+@inproceedings{beller2015much,
+  title={How (much) do developers test?},
+  author={Beller, Moritz and Gousios, Georgios and Zaidman, Andy},
+  booktitle={2015 IEEE/ACM 37th IEEE International Conference on Software Engineering},
+  volume={2},
+  pages={559--562},
+  year={2015},
+  organization={IEEE}
+}
+
+@inproceedings{alghamdi2016automated,
+	title={An Automated Approach for Recommending When to Stop Performance Tests},
+	author={AlGhamdi, Hammam M. and Syer, Mark D. and Shang, Weiyi and Hassan, Ahmed E.},
+	booktitle={Proceedings of the International Conference on Software Maintenance and Evolution},
+	pages={toAppear},
+	year={2016},
+	organization={IEEE}
+}
+
+@article{mcintosh2016emse,
+  Author = {Shane McIntosh and Yasutaka Kamei and Bram Adams and Ahmed E. Hassan},
+  Title = {{An Empirical Study of the Impact of Modern Code Review Practices on Software Quality}},
+  Year = {2016},
+  Journal = {Empirical Software Engineering},
+  Volume = {21},
+  Number = {5},
+  Pages = {2146-2189}
+}
+
+@inproceedings{treude2015summarizing,
+  title={Summarizing and measuring development activity},
+  author={Treude, Christoph and Figueira Filho, Fernando and Kulesza, Uir{\'a}},
+  booktitle={Proceedings of the 2015 10th Joint Meeting on Foundations of Software Engineering},
+  pages={625--636},
+  year={2015},
+  organization={ACM}
+}
+ 
+@article{coelho2016exception,
+  title={Exception handling bug hazards in Android},
+  author={Coelho, Roberta and Almeida, Lucas and Gousios, Georgios and van Deursen, Arie and Treude, Christoph},
+  journal={Empirical Software Engineering},
+  pages={1--41},
+  year={2016},
+  publisher={Springer}
+}
+
+@inproceedings{pinto2015automating,
+  title={Automating the performance deviation analysis for multiple system releases: An evolutionary study},
+  author={Pinto, Felipe and Kulesza, Uir{\'a} and Treude, Christoph},
+  booktitle={Source Code Analysis and Manipulation (SCAM), 2015 IEEE 15th International Working Conference on},
+  pages={201--210},
+  year={2015},
+  organization={IEEE}
+}
+
+
+

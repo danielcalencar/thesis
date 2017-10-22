@@ -1,0 +1,91 @@
+\subsection*{\textbf{RQ5: What are developers' perceptions of shifting to a
+rapid release cycle?}}
+
+In this RQ, we study the perceptions of developers about the impact of shifting
+to a rapid release cycle. Our findings about these perceptions are organized
+along the following themes: {\em management}, {\em delivery}, and {\em
+development}. We describe each theme below.\\    
+
+\noindent{\textit{\textbf{Theme~6---Management.}}\theme{th:6} The shift to a rapid
+release cycle has a considerable impact on release cycle management. 
+
+The most recurrent theme in this respect is {\em flexibility}$^{(4)}$ to plan
+the scope of the releases that should be shipped.  {\em F01}'s opinion is that
+rapid releases {\em ``provide a bit more flexibility, since if an important
+issue pushed back a less important change and it misses the release cycle, it's
+not a huge deal with rapid releases.''} {\em F01}'s observation is supported by
+our observation that rapid Firefox releases tend to deliver addressed issues
+more consistently (see \hyperref[obs:2]{Observation}~\ref{obs:2}). 
+
+Another perceived advantage of rapid release cycles are the {\em risk
+mitigation}$^{(3)}$ and {\em better prioritization}.$^{(3)}$ With respect to
+{\em risk mitigation},$^{(3)}$ {\em F07} argues that in rapid release cycles,
+the team is {\em ``able to identify issues sooner. It is easier to identify
+issues when you have only deployed 3 new commits than 100.''} As for {\em better
+prioritization},$^{(3)}$ {\em F19} explains that rapid release cycles {\em
+``probably decreases unnecessary delays of the releases because deadline is
+closer and developers have to react faster for the pressuring issues.
+Non-critical issues gets also pushed back and don't receive useless attention
+nor create delays.''} Still on the {\em better prioritization}$^{(3)}$ matter,
+{\em F17} adds that rapid releases {\em ``provide a time box in which [the team]
+must forecast the top priority work to complete within that time frame.'' }\\
+
+%recurrent theme in this respect is {\em time-to-market}.$^{(8)}$ Rapid release
+%cycles facilitate software projects to keep up with the pace of the market. For
+%example, {\em P11}'s opinion about the motivation to use a rapid release cycle
+%is {\em ``the ability to release improvements into the wild while they are still
+%relevant''}.  Another participant ({\em P24}) has a similar opinion: ``{\em [the
+%ability to] keep up with the pace of the web (which is constantly changing)}''.
+%
+%Another perceived advantage of rapid release cycles is the {\em
+%flexibility}$^{(4)}$ to plan the scope of the releases that should be shipped.
+%{\em P01}'s opinion is that rapid releases {\em ``provide a bit more
+%flexibility, since if an important issue pushed back a less important change and
+%it misses the release cycle, it's not a huge deal with rapid releases.''}. {\em
+%P01}'s observation is supported by our finding in RQ1 that rapid Firefox
+%releases tend to deliver addressed issues more consistently. \\
+
+\noindent\textit{\textbf{Theme~7--- Delivery.}}\theme{th:7} The most recurrent perceived
+advantage of rapid release cycles is the {\em ``faster delivery''}$^{(33)}$
+of new functionalities. When asked about the motivation to use rapid release
+cycles, {\em F05} mentions {\em ``increasing speed of getting new features to
+users,''} while {\em F06} mentions a similar statement: {\em ``getting new features to
+users sooner.''} Interestingly, not all participants that mentioned the time to
+deliver new functionalities report that rapid releases always reduce such time.
+For {\em F22}, rapid releases {\em ``reduce the time to deliver issues to end
+users in some cases, and lengthen them in others.''} More specifically, {\em F24} 
+says that {\em ``Low priority issues (new features) take less
+time to be delivered, whereas high priority ones (important bugs) take more
+time.''} 
+
+Another recurrent perception about rapid releases is the {\em faster user
+feedback}$^{(17)}$ due to the constant delivery of new functionalities. For
+instance, {\em E29} provides an example that {\em ``you don't find yourself
+fixing a bug that you introduced two years ago which the field only discovered on the
+release.''}\\
+
+\noindent\textit{\textbf{Theme~8---Development activities.}}\theme{th:8}
+We do not observe a specific theme that is recurrent with respect
+to development activities. Instead, we observe a broad range of themes that are
+cited by the participants. Among such themes, we observe {\em quality},$^{(3)}$
+{\em more functionalities},$^{(2)}$ {\em better motivation},$^{(2)}$ and {\em
+better prototyping}.$^{(2)}$ Quality should be a measure of success of using
+rapid release cycles. According to {\em E26}, {\em ``quality of delivered code
+should remain the same or improve''} after switching to rapid releases. Another
+way to measure the success of a rapid release cycle is the {\em number of
+functionalities}$^{(2)}$ that are completed. {\em E34} states the following: {\em
+``I would see if more issues were completely fixed''} as a measure of success. 
+
+Moreover, rapid releases may also impact team members' motivation. For instance,
+{\em F06}'s opinion about why to switch to rapid release cycles is {\em ``the
+need to motivate the community via more frequent collaboration.''} Finally,
+rapid release cycles may also improve prototyping activities. For instance, {\em
+P27} argues that, by adopting rapid releases, a development team can {\em ``fix
+bugs quickly [and] prototype features, having results in few months.''}
+
+\conclusionbox{The allure of delivering addressed
+issues more quickly to users is the most recurrent motivator of switching to a
+rapid release cycle. Moreover, the allure of improving management flexibility and quality
+of addressed issues are other advantages that are perceived by our participants
+with respect to switching to rapid release cycles.}
+

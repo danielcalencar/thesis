@@ -1,0 +1,109 @@
+
+# Methodology
+
+### Overall methods
+
+- you used diffent methods to study your research problem, i.e. mixed methods.
+  how would you describe your research design? what was the rationale behind
+your decisions? you describe well each study separetely, but for example, I'm
+missing a justification on why you started with quantitative methods before
+running a qualitative study, i.e. survey. Note that your approach is perfectly
+fine, but it would be helpful to understand why you did things that way.
+
+### Study 3
+
+- 5.1: we _qualitatively_ investigate the delivery delay of addressed issues
+  to (i) reach additional insights that could not be possible by only
+performing quantitative analysis and (ii) verify to which extent our
+participants agree with our findings from the quantitative studies. -> How
+would you characterize _extent_ using qualitative methods?  (emphasis added)
+
+- 5.2: We qualitatively analyze the delivery delay phenomena by surveying and
+  interviewing the team members of our subject projects.
+
+- 5.2.1:  You used surveys and interviews to conduct your qualitative study.
+  Then you say that you analyzed these projects (i.e., Firefox, ArgoUML etc).
+What exactly is qualitatively analyzed in these projects?
+
+- RQ.2. What are developers’ perceptions of shifting to a rapid release cycle?
+  -> Developers' perceptions regarding what? Can you better explain what
+perceptions you sought to understand?
+
+- (from the presentation) There are some parts you cannot grasp using
+  quantitative analysis... which ones you could not grasp?
+
+- (from the presentation) Themes vs codes (themes come as result of doing open
+  and axial coding, but they are not the same thing)
+
+- I'm missing some details from the interviews... duration, how they were
+  conducted (face-to-face, videoconference), how they were transcribed and
+analyzed. The same for the invitation letter to the survey and the interview
+invitation.
+
+- Our interviews are semi-structured and our goal was to clarify the responses
+  of our survey and collect more details about specific cases of delivery
+delays for addressed issues. -> clarify which responses? collect what details?
+
+- To collect the data to perform our qualitative study, we design a web-based
+  survey that was sent to 780 participants. (...) We sent our survey to 513
+Firefox, 184 Eclipse (JDT), and 83 ArgoUML participants. We gather developer
+e-mails from the respective developer mailing list archives of the subject
+projects (ok, now I see what you consider a participant) -> what limitations
+do you see in this approach? 
+
+### 5.2.3. Research Approach
+
+- what methods from GT are used?
+
+- why did two researchers code your data independently?
+
+- It would also be very useful if you could present the code system you
+  obtained as a result of your qualitative analysis. This improves the
+credibility of your findings.
+
+- Finally, we used axial coding to find higher level conceptual themes to
+  answer our RQs. -> i'd need more details on the procedures you used here.
+how did you perform axial coding?
+
+- to allow for traceability through links to raw data -> how is tracebility
+  enabled here?
+
+- Finally, we also perform quantitative analyses of the responses to
+  Likert-scale questions. -> this is contradicting what you said in the
+beginning of this chapter.
+
+ 
+### 5.3. Results (or Findings) 
+
+- We present a exploratory analysis of the data that we collect from the responses
+of the participants. -> Why do you call it exploratory? What did you explore here? I'd rather say that your survey and interviews had a more "confirmatory" nature. This is related to my initial comment on your overall research design.
+
+- In our analyses to answer RQ1-RQ3, we attempt to correlate the rating of factors that are provided in question #13 with the data that is presented in this preliminary analysis. -> again, when you write that way, it strikes me as a quantitative study.
+
+- The greatest frustration source for developers is the feeling of useless/unreleased
+work.(9) According to F09, when an addressed issue is delayed, a developer “feels like
+[their] work is meaningless.” F04 complements F09 by stating that “it is frustrating to
+work on something and not see it shipped.” -> This has more to do with the _impact_ of delays, and not why the participants think delays happen. It seems to me that you have findings as to why delays happen, but also what is the impact of these delays according to the participants' perceptions.
+
+- Observation 7?  The last theme above is number 5. This observations are coming all of a sudden, since they are not themes extracted from qualitative analysis, but from the quantitative analysis you also performed. 
+
+When you talk about agreement scores and to what extent people agree with you, closed survey questions this calls for quantitative analysis and results should be presented approprietely.  However, why questions usually call for qualitative methods, as the one you claim to be using.
+
+It would have been better to separete both qualitative and quantitative findings  per research questions. You see, each RQ has a better way to be operationalized. 
+
+- Furthermore, two of our interviewees (F11 and F23) provide
+us with examples of why addressed issues may be delayed due to dependency problems.
+For example, F23 explains during the interview that delivery delay can happen
+when there are “dependencies between projects and one of them gets done, but the other
+implementation takes a longer while.” Another example, provided by F23 is when “you
+release a bug fix but then you realize: Hey! These users are not able to use these websites
+anymore because web servers implement the spec in a wrong way or do some really weird
+things that are not expected.” -> I'd love to see more of those examples.
+
+- Theme 10—Impact of switching to a rapid release cycle. ->  this part is so interesting, it's a pity that you don't really explore disagreement! People agreeing with you is good, but why are you not curious about why they disagree with your results?
+
+### 5.4 Threats to Validity
+
+- The concept of validity does not apply to qualitative methods.
+
+# So what? Will you recommend a rapid release cycle or a traditional one? under what conditions? let's say i'm an engineer trying to mitigate delays in my team? what should I know about your work if I didn't have the time to explore your thesis?

@@ -1,0 +1,503 @@
+%% abtex2-modelo-trabalho-academico.tex, v-1.9.5 laurocesar
+%% Copyright 2012-2015 by abnTeX2 group at http://www.abntex.net.br/ 
+%%
+%% This work may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%   http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2005/12/01 or later.
+%%
+%% This work has the LPPL maintenance status `maintained'.
+%% 
+%% The Current Maintainer of this work is the abnTeX2 team, led
+%% by Lauro César Araujo. Further information are available on 
+%% http://www.abntex.net.br/
+%%
+%% This work consists of the files abntex2-modelo-trabalho-academico.tex,
+%% abntex2-modelo-include-comandos and abntex2-modelo-references.bib
+%%
+
+% ------------------------------------------------------------------------
+% ------------------------------------------------------------------------
+% abnTeX2: Modelo de Trabalho Academico (tese de doutorado, dissertacao de
+% mestrado e trabalhos monograficos em geral) em conformidade com 
+% ABNT NBR 14724:2011: Informacao e documentacao - Trabalhos academicos -
+% Apresentacao
+% ------------------------------------------------------------------------
+% ------------------------------------------------------------------------
+
+\documentclass[
+	% -- opções da classe memoir --
+	12pt,				% tamanho da fonte
+	openright,			% capítulos começam em pág ímpar (insere página vazia caso preciso)
+	oneside,			% para impressão em verso e anverso. Oposto a oneside
+	a4paper,			% tamanho do papel. 
+	% -- opções da classe abntex2 --
+	%chapter=TITLE,		% títulos de capítulos convertidos em letras maiúsculas
+	%section=TITLE,		% títulos de seções convertidos em letras maiúsculas
+	%subsection=TITLE,	% títulos de subseções convertidos em letras maiúsculas
+	%subsubsection=TITLE,% títulos de subsubseções convertidos em letras maiúsculas
+	% -- opções do pacote babel --
+	french,				% idioma adicional para hifenização
+	spanish,			% idioma adicional para hifenização
+	brazil,				% o último idioma é o principal do documento
+	english
+	]{abntex2}
+
+
+%\renewcommand*{\familydefault}{\rmdefault}
+%\renewcommand*\rmdefault{ptm}
+\usepackage[proportional,scaled=1.064]{erewhon}
+%\usepackage[proportional]{erewhon}
+% ---
+% Pacotes básicos 
+% ---
+	\usepackage{import}
+	\usepackage{amsmath}
+	%\usepackage{lmodern}			% Usa a fonte Latin Modern			
+	\usepackage[T1]{fontenc}		% Selecao de codigos de fonte.
+	\usepackage[utf8]{inputenc}		% Codificacao do documento (conversão automática dos acentos)
+	\usepackage{lastpage}			% Usado pela Ficha catalográfica
+	\usepackage{indentfirst}		% Indenta o primeiro parágrafo de cada seção.
+	\usepackage{color}				% Controle das cores
+	\usepackage{graphicx}			% Inclusão de gráficos
+	\usepackage{subfig}
+	\usepackage{microtype} 			% para melhorias de justificação
+	\usepackage{multirow}
+	\usepackage{threeparttable}
+	\usepackage[labelfont={bf,it}]{caption}
+	\usepackage{titlesec}
+	\usepackage{fontawesome}
+	%\usepackage[titletoc,title]{appendix}
+	%\usepackage{paralist}
+	
+	
+	
+	%\usepackage{mathptmx}
+% ---
+		
+% ---
+% Pacotes adicionais, usados apenas no âmbito do Modelo Canônico do abnteX2
+% ---
+
+% ---
+
+% ---
+% Pacotes de citações
+% ---
+\usepackage[english,hyperpageref]{backref}	 % Paginas com as citações na bibl
+\usepackage[alf]{abntex2cite}	% Citações padrão ABNT
+\usepackage{hyperref}
+
+% --- 
+% CONFIGURAÇÕES DE PACOTES
+% --- 
+\newcounter{pt}
+\newcommand{\parts}[1]{\refstepcounter{pt}\label{#1}}
+\newcounter{st}
+\newcommand{\study}[1]{\refstepcounter{st}\label{#1}
+}
+
+\newcounter{foot}
+\newcounter{defCount}
+\newcommand{\smartfoot}[1]{\refstepcounter{foot}\footnotemark[\value{foot}]\footnotetext[\value{foot}]{#1}}
+\newcommand{\mydef}[2]{\refstepcounter{defCount}\textit{\textbf{Definition~\arabic{defCount}---#1.}}\label{#2}}
+
+\newcounter{obs}
+\newcommand{\observation}[1]{\refstepcounter{obs}\label{#1}}
+
+\newcounter{find}
+\newcommand{\finding}[2]{\refstepcounter{find}\textbf{\textit{Finding~\arabic{find}---#1}}\label{#2}}
+
+\newcounter{th}
+\newcommand{\theme}[1]{\refstepcounter{th}\label{#1}}
+
+\newcounter{appendixc}
+
+
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
+
+
+% ---
+% Configurações do pacote backref
+% Usado sem a opção hyperpageref de backref
+\renewcommand{\backrefpagesname}{Cited on page(s):~}
+% Texto padrão antes do número das páginas
+\renewcommand{\backref}{}
+% Define os textos da citação
+\renewcommand*{\backrefalt}[4]{
+	\ifcase #1 %
+		No citation in the text.%
+	\or
+		Cited on page #2.%
+	\else
+		Cited #1 times on pages #2.%
+	\fi}%
+% ---
+\def\ie{\textit{i.e.},~}
+\def\eg{\textit{e.g.},~}
+\def\etal{\textit{et al.}~}
+\def\cf{\textit{cf.}~}
+\newcommand{\code}[1]{\texttt{#1}}
+
+\newcommand{\conclusionbox}[1]{%
+	\vspace{2.5mm}
+  \noindent
+	\framebox[\textwidth][c]{%
+		\parbox[b]{0.95\textwidth}{%
+			{\em #1}
+		}
+	}
+}
+
+
+\newcommand{\keybox}[1]{%
+	\hspace{.4\textwidth}
+	\begin{minipage}{.5\textwidth}
+		\SingleSpacing
+		{\small #1}
+		\vspace{1.5cm}
+	\end{minipage}%
+}%
+
+% ---
+% Informações de dados para CAPA e FOLHA DE ROSTO
+% ---
+\titulo{Understanding the Delivery Delay of Addressed Issues in Large Software Projects}
+\autor{Daniel Alencar da Costa}
+\local{\textbf{Natal, RN, Brazil}}
+\data{\textbf{February, 2017}}
+\orientador{\textbf{Uir\'{a} Kulesza}}
+\coorientador{\textbf{Ahmed E. Hassan}}
+\instituicao{%
+	\textbf{Federal University of Rio Grande do Norte -- UFRN}
+  \par
+  \textbf{Centro de Ci\^{e}ncias Exatas e da Terra}
+  \par
+  \textbf{Programa de P\'{o}s-Gradua\c{c}\~{a}o em Sistemas e
+  Computa\c{c}\~{a}o}}
+\tipotrabalho{Tese (Doutorado)}
+% O preambulo deve conter o tipo do trabalho, o objetivo, 
+% o nome da instituição e a área de concentração 
+\preambulo{\textbf{A thesis submitted to the Computer Science Graduation Program
+of the {\em Centro de Ci\^{e}ncias Exatas e da Terra} in conformity with the
+requirements for the Degree of Doctor of Philosophy}}
+% ---
+
+
+% ---
+% Configurações de aparência do PDF final
+
+% alterando o aspecto da cor azul
+\definecolor{blue}{RGB}{41,5,195}
+
+% informações do PDF
+\makeatletter
+\hypersetup{
+     	%pagebackref=true,
+		pdftitle={\@title}, 
+		pdfauthor={\@author},
+    	pdfsubject={\imprimirpreambulo},
+	    pdfcreator={LaTeX with abnTeX2},
+		pdfkeywords={abnt}{latex}{abntex}{abntex2}{trabalho acadêmico}, 
+		colorlinks=true,       		% false: boxed links; true: colored links
+    	linkcolor=blue,          	% color of internal links
+    	citecolor=blue,        		% color of links to bibliography
+    	filecolor=magenta,      		% color of file links
+		urlcolor=blue,
+		bookmarksdepth=4
+}
+\makeatother
+% --- 
+
+% --- 
+% Espaçamentos entre linhas e parágrafos 
+% --- 
+
+% O tamanho do parágrafo é dado por:
+\setlength{\parindent}{1.3cm}
+
+% Controle do espaçamento entre um parágrafo e outro:
+\setlength{\parskip}{0.2cm}  % tente também \onelineskip
+ 
+% ---
+% compila o indice
+% ---
+\makeindex
+% ---
+
+% ----
+% Início do documento
+% ----
+\usepackage{lipsum}
+\begin{document}
+
+% Seleciona o idioma do documento (conforme pacotes do babel)
+\selectlanguage{english}
+%\selectlanguage{brazil}
+
+% Retira espaço extra obsoleto entre as frases.
+\frenchspacing 
+
+% ----------------------------------------------------------
+% ELEMENTOS PRÉ-TEXTUAIS
+% ----------------------------------------------------------
+\pretextual
+
+\imprimircapa
+\imprimirfolhaderosto*
+
+\input{prepages/fichacatalografica}
+%\input{prepages/errata}
+%\input{prepages/folhaaprovacao}
+%\input{prepages/dedicatoria}
+\input{prepages/agradecimentos}
+%\input{prepages/epigrafe}
+%\input{prepages/abstract-pt}
+\input{prepages/abstract}
+\input{prepages/publications}
+\input{prepages/ilustracoes}
+\input{prepages/tabelas}
+%\input{prepages/siglas}
+%\input{prepages/simbolos}
+\input{prepages/sumario}
+% ----------------------------------------------------------
+% ELEMENTOS TEXTUAIS
+% ----------------------------------------------------------
+\textual
+
+\input{chapters/chapter1}
+\input{chapters/chapter2}
+%\input{chapters/chapter3}
+\input{chapters/chapter4}
+\input{chapters/chapter5}
+\input{chapters/chapter6}
+\input{chapters/chapter7}
+\input{chapters/chapter8}
+
+%% ----------------------------------------------------------
+%% PARTE
+%% ----------------------------------------------------------
+%\part{Preparação da pesquisa}
+%% ----------------------------------------------------------
+%
+%% ---
+%% Capitulo com exemplos de comandos inseridos de arquivo externo 
+%% ---
+%\include{abntex2-modelo-include-comandos}
+%% ---
+%
+%% ----------------------------------------------------------
+%% PARTE
+%% ----------------------------------------------------------
+%\part{Referenciais teóricos}
+%% ----------------------------------------------------------
+%
+%% ---
+%% Capitulo de revisão de literatura
+%% ---
+%\chapter{Lorem ipsum dolor sit amet}
+%% ---
+%
+%% ---
+%\section{Aliquam vestibulum fringilla lorem}
+%% ---
+%
+%\lipsum[1]
+%
+%\lipsum[2-3]
+%
+%% ----------------------------------------------------------
+%% PARTE
+%% ----------------------------------------------------------
+%\part{Resultados}
+%% ----------------------------------------------------------
+%
+%% ---
+%% primeiro capitulo de Resultados
+%% ---
+%\chapter{Lectus lobortis condimentum}
+%% ---
+%
+%% ---
+%\section{Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+%posuere cubilia Curae}
+%% ---
+%
+%\lipsum[21-22]
+%
+%% ---
+%% segundo capitulo de Resultados
+%% ---
+%\chapter{Nam sed tellus sit amet lectus urna ullamcorper tristique interdum
+%elementum}
+%% ---
+%
+%% ---
+%\section{Pellentesque sit amet pede ac sem eleifend consectetuer}
+%% ---
+%
+%\lipsum[24]
+%
+%% ----------------------------------------------------------
+%% Finaliza a parte no bookmark do PDF
+%% para que se inicie o bookmark na raiz
+%% e adiciona espaço de parte no Sumário
+%% ----------------------------------------------------------
+%\phantompart
+%
+%% ---
+%% Conclusão
+%% ---
+%\chapter{Conclusão}
+%% ---
+%
+%\lipsum[31-33]
+% ----------------------------------------------------------
+% ELEMENTOS PÓS-TEXTUAIS
+% ----------------------------------------------------------
+\postextual
+% ----------------------------------------------------------
+
+% ----------------------------------------------------------
+% Referências bibliográficas
+% ----------------------------------------------------------
+\bibliography{references}
+%\input{chapters/chapter5/appendix}
+
+% ----------------------------------------------------------
+% Glossário
+% ----------------------------------------------------------
+%
+% Consulte o manual da classe abntex2 para orientações sobre o glossário.
+%
+%\glossary
+
+% ----------------------------------------------------------
+% Apêndices
+% ----------------------------------------------------------
+
+% ---
+% Inicia os apêndices
+% ---
+\begin{apendicesenv}
+%
+%% Imprime uma página indicando o início dos apêndices
+\partapendices
+
+\chapter{Firefox Survey}\label{appendix:a}
+
+\includegraphics[width=.8\textwidth,keepaspectratio]{chapters/chapter5/appendix/Firefox1.pdf}
+
+\includegraphics[width=.8\textwidth,keepaspectratio]{chapters/chapter5/appendix/Firefox2.pdf}
+
+\includegraphics[width=.8\textwidth,keepaspectratio]{chapters/chapter5/appendix/Firefox3.pdf}
+
+\includegraphics[width=.8\textwidth,keepaspectratio]{chapters/chapter5/appendix/Firefox4.pdf}
+
+\includegraphics[width=.8\textwidth,keepaspectratio]{chapters/chapter5/appendix/Firefox5.pdf}
+
+\includegraphics[width=.8\textwidth,keepaspectratio]{chapters/chapter5/appendix/Firefox6.pdf}
+
+\includegraphics[width=.8\textwidth,keepaspectratio]{chapters/chapter5/appendix/Firefox7.pdf}
+
+\chapter{ArgoUML Survey}\label{appendix:b}
+
+\includegraphics[width=.8\textwidth,keepaspectratio]{chapters/chapter5/appendix/ArgoUML1.pdf}
+
+\includegraphics[width=.8\textwidth,keepaspectratio]{chapters/chapter5/appendix/ArgoUML2.pdf}
+
+\includegraphics[width=.8\textwidth,keepaspectratio]{chapters/chapter5/appendix/ArgoUML3.pdf}
+
+\includegraphics[width=.8\textwidth,keepaspectratio]{chapters/chapter5/appendix/ArgoUML4.pdf}
+
+\includegraphics[width=.8\textwidth,keepaspectratio]{chapters/chapter5/appendix/ArgoUML5.pdf}
+
+\includegraphics[width=.8\textwidth,keepaspectratio]{chapters/chapter5/appendix/ArgoUML6.pdf}
+
+\includegraphics[width=.8\textwidth,keepaspectratio]{chapters/chapter5/appendix/ArgoUML7.pdf}
+
+\includegraphics[width=.8\textwidth,keepaspectratio]{chapters/chapter5/appendix/ArgoUML8.pdf}
+
+\chapter{Eclipse Survey}\label{appendix:c}
+
+\includegraphics[width=.8\textwidth,keepaspectratio]{chapters/chapter5/appendix/Eclipse1.pdf}
+
+\includegraphics[width=.8\textwidth,keepaspectratio]{chapters/chapter5/appendix/Eclipse2.pdf}
+
+\includegraphics[width=.8\textwidth,keepaspectratio]{chapters/chapter5/appendix/Eclipse3.pdf}
+
+\includegraphics[width=.8\textwidth,keepaspectratio]{chapters/chapter5/appendix/Eclipse4.pdf}
+
+\includegraphics[width=.8\textwidth,keepaspectratio]{chapters/chapter5/appendix/Eclipse5.pdf}
+
+\includegraphics[width=.8\textwidth,keepaspectratio]{chapters/chapter5/appendix/Eclipse6.pdf}
+
+\includegraphics[width=.8\textwidth,keepaspectratio]{chapters/chapter5/appendix/Eclipse7.pdf}
+
+\includegraphics[width=.8\textwidth,keepaspectratio]{chapters/chapter5/appendix/Eclipse8.pdf}
+
+\chapter{Methodology Web Page I}\label{methodology:i}
+
+\includegraphics[width=.9\textwidth,keepaspectratio]{chapters/chapter5/appendix/GeneralIntegrationDelay.pdf}
+
+\chapter{Methodology Web Page II}\label{methodology:ii}
+
+\includegraphics[width=.9\textwidth,keepaspectratio]{chapters/chapter5/appendix/ShiftIntegrationDelay.pdf}
+
+\chapter{Invitation Letter}\label{invitation_letter}
+
+\includegraphics[width=.9\textwidth,keepaspectratio]{chapters/chapter5/appendix/invitation_letter.pdf}
+
+\chapter{Interview Script}\label{interview_script}
+
+\includegraphics[width=.9\textwidth,keepaspectratio]{chapters/chapter5/appendix/InterviewScript.pdf}
+
+\end{apendicesenv}
+%% ---
+%
+%
+%% ----------------------------------------------------------
+%% Anexos
+%% ----------------------------------------------------------
+%
+%% ---
+%% Inicia os anexos
+%% ---
+%\begin{anexosenv}
+%
+%% Imprime uma página indicando o início dos anexos
+%\partanexos
+%
+%% ---
+%\chapter{Morbi ultrices rutrum lorem.}
+%% ---
+%\lipsum[30]
+%
+%% ---
+%\chapter{Cras non urna sed feugiat cum sociis natoque penatibus et magnis dis
+%parturient montes nascetur ridiculus mus}
+%% ---
+%
+%\lipsum[31]
+%
+%% ---
+%\chapter{Fusce facilisis lacinia dui}
+%% ---
+%
+%\lipsum[32]
+%
+%\end{anexosenv}
+
+%---------------------------------------------------------------------
+% INDICE REMISSIVO
+%---------------------------------------------------------------------
+\phantompart
+\printindex
+%---------------------------------------------------------------------
+
+\end{document}

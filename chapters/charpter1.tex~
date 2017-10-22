@@ -1,0 +1,177 @@
+% ----------------------------------------------------------
+% Introdução (exemplo de capítulo sem numeração, mas presente no Sumário)
+% ----------------------------------------------------------
+\chapter[Introduction]{Introduction}
+%\addcontentsline{toc}{chapter}{Introduction}
+% ----------------------------------------------------------
+
+Attracting and retaining the interest of users are key factors for a software project to achieve
+sustained success~\cite{subramaniam2009determinants,delone2003delone}. In this context, software
+projects that do not address issues that are reported by users, rapidly lose credibility. 
+
+Within a globalized world, in which technology has fostered geographically distributed software
+development~\cite{herbsleb2003empirical}, software organizations use \textit{Issue Tracking Systems}
+(ITS, e.g., Bugzilla) to coordinate tasks between the software development
+team.\footnote{https://www.bugzilla.org/}
+
+Users can use ITSs to report issues within software systems. To do so, these users must file a
+report that contain information about the issue (\eg the description and severity of the issue). In
+this work, we broadly use the term issue to either describe a \textit{new feature}, a \textit{bug},
+or an \textit{enhancement} that should be addressed in a software system~\cite{giuliano2008}.
+
+Once reported, an issue has to be \textit{triaged}, \ie the team member with the right expertise is
+assigned to the issue~\cite{Anvik2006}. After being triaged, an issue is then addressed by its
+assignee.
+
+previous research has investigated the time needed to triage and to address issues~\cite{Anvik2005,
+Anbalagan2009, Giger2010, Kim2006, Marks2011, Weib2007, Zhang2013}. Such research provides valuable
+insight on which issues should be prioritized given the estimated time that they will take to be
+addressed. 
+
+\section{Problem Statement} \label{sec:problem}
+
+Although end users expect issues to be addressed, this is not enough to satisfy their needs. Users
+care most about when addressed issues will be reflected in the available software system. We use the
+term \textit{software content delay} to refer to the kinds of delays that reported issues suffer
+prior being released to end users. Software content delay can be frustrating to users. For example,
+in a recent issue report of the Firefox system, a user asks: \textit{``So when does this stuff get
+added?  Will it be applied to the next FF23 beta? A 22.01 release?
+Otherwise?''}.\footnote{https://bugzilla.mozilla.org/show\_bug.cgi?id=883554} Therefore, we
+investigate the delay that precedes the release of new software content to end users in this thesis.
+In the following section (Section~\ref{sec:thesis_overview}, we provide an overview of the scope of
+the thesis.
+
+\section{Thesis Overview} \label{sec:thesis_overview}
+
+\begin{figure}[t]
+	\centering
+	\includegraphics[width=0.70\textwidth,keepaspectratio]{figures/thesis_overview.pdf}
+	\caption{An overview of the scope of the thesis.}
+	\label{fig:thesis_overview}
+\end{figure}
+
+In Figure~\ref{fig:thesis_overview}, we provide an overview of the thesis scope. The scope shows how
+chapters are organized, which studies we performed, and what are the (potential) outcomes of the
+studies. A brief description of the first two chapters is given below:
+
+\begin{description}
+	\item[Chapter 2:] \textit{Background} \hfill \\
+		In Chapter~\ref{ch:background}, we present the definitions and key concepts of our
+		for the reader to understand our empirical studies. To explain the delays that are
+		involved in releasing new software content, the lifecycle of the issue reports is
+		described in detail. Additionally, we describe the release cycles (traditional and
+		rapid) that can be used to manage the release of new software content.
+
+	\item[Chapter 3:] \textit{Related research} \hfill \\ 
+		In Chapter~\ref{ch:relatedwork}, we situate the contributions of this thesis in
+		relation to previous research.  Since we study the delays that are involved in
+		delivering new software content, we present related research about (i) issue
+		lifecyle~\cite{Anvik2005, Hooimeijer2007, Anbalagan2009, Giger2010,  Kim2006,
+			Marks2011, Weib2007, Zhang2013, Saha2014, Panjer2007, Guo2010,
+		Bhattacharya2011, Herraiz2008, Zhang2012}, code
+		integration~\cite{Jiang2013,rahmanrelease,jiangmuch} and delays that occur during a
+		release cycle~\cite{riskyissues2015a,riskyissues2015b}. We also present related work
+		about the impact of release cycles on software engineering
+		activities~\cite{mantyla2014rapid,souza2014rapid,souzabackout,baysal2011tale,khomh2012faster}. 
+\end{description}
+
+The next chapters describe the empirical studies that we performed. The studies are grouped by two
+kinds of \textit{software content delay}: (i) \textit{integration delay} and (ii) \textit{delivering
+delay}. Such kinds of delay are detailed in the following subsections.
+
+\subsection{Integration Delay}
+
+After an issue is addressed, it may still be far from being released. \textit{Integration delay}
+refers to the time that an issue takes to be released after it is addressed. Our
+research~\cite{costa2014empirical} reveals that 34-98\% of addressed issues from the studied
+ArgoUML, Eclipse, and Firefox systems were delayed by at least one release before being available to
+end users. We plan to perform three empirical studies related to integration delay in this thesis:
+
+\begin{description}
+	\item[Chapter 4:] \textit{Understanding integration delay} \hfill \\
+		Contrary to what one could speculate, it is not obvious that an issue is ready to be
+		released after it is addressed. Indeed, Jiang~\etal~\cite{Jiang2013} found that 33\%
+		of the code patches that are submitted to resolver issues take 3 to 6 months to be
+		accepted into an official Linux release. Such results hint that the integration
+		phase may introduce non-trivial delay before shipping a particular addressed issue.
+		We perform an empirical study using data of the ArgoUML, Eclipse, and Firefox systems.
+		We analyze the integration delay of $20,995$ addressed issues.
+
+	\item[Chapter 5:] \textit{Studying the impact of rapid release cycle on integration delay} \hfill \\
+		Many software organizations have shifted to shorter release cycles with the allure
+		of delivering new software content more quickly to end users. For instance, Firefox,
+		Chrome, and Facebook have adopted shorter release cycles. Nevertheless, there is a lack
+		of empirical evidence to support that shorter release cycles, in fact, deliver
+		addressed issues more quickly to end users. We set out to empirically study $71,114$
+		issue reports of the Firefox studied system. Since Firefox has changed its release
+		cycle from a traditional one (12$\sim$18 months) to a rapid one (6 weeks), we are able to
+		compare if addressed issues are released more quickly to end users in a rapid release
+		cycle.
+
+	\item[Chapter 6:] \textit{Understanding release cycle timing} \hfill \\
+		In our prior research, we find that the timing of addressing issues matters when it
+		comes to prioritize integration~\cite{}. For example, issues that are addressed
+		early in a rapid release cycle of Firefox have less chances of integration
+		delay. In this empirical study, we plan to investigate if issues that are
+		addressed early in a release cycle hold special characteristics.
+\end{description}
+
+\subsection{Delivering Delay}
+
+Differently from integration delay, \textit{delivering delay} is the complete time from the opening
+of an addressed issue until it is shipped to end users. To understand which factors can explain the
+delivering delay is important to (i) help team leaders in prioritizing issues resolution and (ii)
+give users an expectation of when an issue will be addressed and available in the software system. 
+
+\begin{description}
+	\item[Chapter 7:] \textit{Understanding delivering delay} \hfill \\
+		In this empirical study, we plan to investigate which factors related to software
+		development are important to explain delivering delay. To understand delivering
+		delay has an advantage over understanding the fixing time only, since delivering
+		delay accounts for the integration delay that an issue may still suffer after being
+		addressed.
+\end{description}
+
+\section{Thesis Contributions}
+
+This thesis demonstrates that:
+
+\begin{itemize}
+
+	\item 34 to 98\% of addressed issues are delayed by at least one release before being delivered to
+		users. Workload of integrators and the timing when an issue is
+		addressed within a release cycle are the most important factors to explain the (abnormal) integration
+		delay of addressed issues (Chapter~\ref{ch:integrationdelay}). 
+
+	\item The priority and severity fields of addressed issues have little impact to explain integration
+		delay. Moreover, the component of an issue do not share a relationship with integration
+		delay (Chapter~\ref{ch:integrationdelay}).
+
+	\item Although rapid releases address issues faster, traditional releases integrate addressed issues
+		more quickly on average (median). Additionally, we observe that there is not significant
+		difference between traditional and rapid releases in the speed to address-and-deliver
+		addressed issues, \ie from the issue creation until shipment
+		(Chapter~\ref{ch:rapidvstrad}).
+
+	\item Minor-traditional releases are one of the reasons why a traditional release cycle can
+		integrate addressed issues faster than rapid releases (Chapter~\ref{ch:rapidvstrad}).
+
+	\item Metrics related to release cycle timing can accurately explain integration delay of addressed
+		issues in traditional and rapid releases. Nevertheless, issues in traditional releases are
+		queued up -- issues addressed earlier in the project backlog are less likely to be delayed.
+		On the other hand, issues in rapid releases are queued on a per release basis, in which
+		issues addressed early the current release cycle are less likely to be delayed
+		(Chapter~\ref{ch:rapidvstrad}).
+
+\end{itemize}
+
+\section{Thesis Organization}
+
+The remainder of this thesis is organized as follows. Chapter~\ref{ch:background} describes the
+background material to the reader. Chapter~\ref{ch:relatedwordk} situates this thesis with respect
+to related research. Chapter~\ref{ch:integrationdelay} presents our empirical study to understand
+integration delay. Chapter~\ref{ch:rapidvstrad} presents our analyses of integration delay within
+traditional and rapid releases. Chapters~\ref{ch:cycletiming}~and~\ref{ch:deliverydelay} present the
+research that we plan to incorporate into this thesis. Finally, Chapter~\ref{ch:conclusions} draws
+partial conclusions and our research agenda.
+

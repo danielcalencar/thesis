@@ -1,0 +1,89 @@
+\section{Introduction}
+
+%\subsection*{Study 1---How Frequent is Delivery Delay?}
+
+Since there is a lack of empirical studies that investigate the frequency of
+delivery delays of addressed issues, we perform a study using 20,995 addressed
+issues of the ArgoUML, Eclipse, and Firefox projects. Our main goal is to
+analyze {\em (i)} how frequent delivery delays occur and {\em (ii)} which
+factors may impact delivery delay according to our studied data. Finally, we
+also investigate {\em (iii)} what leads to a prolonged delivery delay. In this study, we
+address the following RQs:
+
+\begin{itemize}
+	\item \textbf{\textit{RQ1: How often are addressed issues prevented from
+		being released?}} 34\% to 60\% of addressed issues within
+		traditional release cycles (the ArgoUML and Eclipse projects)
+		skip at least one release. Furthermore, the delivery of 98\% of
+		the addressed issues skip at least one release in the rapidly
+		released Firefox project.\\
+
+	\item \textbf{\textit{RQ2: Does the stage of the release cycle 
+		impact delivery delay?}} We observe that issues that
+		are addressed during more stable stages of a release cycle tend to 
+		have a shorter delivery delay. We also observe
+		that addressed issues are unlikely to skip releases solely because they
+		were addressed near a code freeze period.\\
+
+	\item \textbf{\textit{RQ3: How well can we model the delivery delay of
+		addressed issues?}} Our models that are fit to study the
+		delivery delay in terms of number of releases obtain AUC values
+		of 0.62 to 0.93. Our models that are fit to study the delivery
+		delay in terms of number of days obtain $R^2$ values of 0.39 to
+		0.65.\\
+
+	\item \textbf{\textit{RQ4: What are the most influential attributes for
+		modeling delivery delay?}} We find that the total fixing time
+		that is spent per resolver in the release cycle plays an
+		influential role in modeling the delivery delay in terms of
+		releases of an addressed issue. On the other hand, we find that the
+		time at which an issue is addressed and the resolver of the issue
+		have a large influence on the delivery delay in terms of days.
+		Moreover, attributes that are related to the state of the
+		project are the most influential in both types of
+		delivery~delay.
+%\end{itemize}
+%
+%
+%\subsection{Study~2---What Leads to Prolonged Delivery Delays?}
+%
+%\begin{itemize}
+
+	\item \textbf{\textit{RQ5: How well can we identify the addressed issues
+		that will suffer from a prolonged delivery delay?}} Our models
+		outperform na\"{i}ve models like random guessing, achieving AUC
+		values of 0.82 to 0.96.\\
+
+	\item \textbf{\textit{RQ6: What are the most influential attributes for
+		identifying the issues that will suffer from a prolonged delivery
+delay?}} Attributes that are related to the state of the project, such as the
+integration workload, the period during which issues are addressed, and the fixing
+time that is spent per resolver are the most influential attributes for
+identifying the issues that will suffer from a prolonged delivery delay.\\
+
+\end{itemize}
+
+
+Our results suggest that the total time that is invested per resolver in fixing
+the issues of a release cycle has a large influence later in the process of
+deliverying addressed issues. Also, the number of issues that are waiting to be
+delivered can influence the delivery delay of other addressed issues. Such
+results warn us that in addition to the current focus of studies on triaging and
+fixing stages of the issue life cycle, the integration and delivery stages
+should also be the target of future research and tooling efforts in order to
+reduce the time-to-delivery of addressed issues.
+
+\subsection*{Chapter Organization}
+
+This chapter is organized as follows. In
+\hyperref[ch4:caseStudy]{Section}~\ref{ch4:caseStudy}, we present the
+methodology that is used in our study. In
+\hyperref[ch3:results]{Section}~\ref{ch3:results}, we present our obtained
+results. In \hyperref[ch4:resultsdiscussion]{Section}~\ref{ch4:discussion}, we
+discuss and relate our observations along the studied types of delivery delay.
+We perform an exploratory analysis on the backlog of issues of each studied
+project in \hyperref[ch4:discussion]{Section}~\ref{ch4:exploratory}. In
+\hyperref[ch4:threats]{Section}~\ref{ch4:threats}, we discuss the threats to the
+validity of our conclusions, while we draw conclusions
+in~\hyperref[ch4:conclusion]{Section}~\ref{ch4:conclusion}.
+

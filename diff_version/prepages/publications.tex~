@@ -1,0 +1,57 @@
+\pretextualchapter{Publications}
+\begin{sloppypar}
+
+\noindent Earlier versions of the work in this thesis were published as listed below:
+
+\begin{itemize}
+
+\item \textbf{Studying the Impact of Switching to a Rapid Release Cycle on
+Integration Delay of Addressed Issues - An Empirical Study of the Mozilla
+Firefox Project.} 
+\underline{Daniel Alencar da
+	Costa}, Shane McIntosh, Uir\'{a} Kulesza,
+	and Ahmed E. Hassan. In Proceedings of the 13th International
+Conference on Mining Software Repositories (MSR) , 2016, pp. 374--385.\\
+\faTrophy {\em Received the ACM SIGSOFT distinguished paper award} \faTrophy
+
+\item \textbf{An Empirical Study of Delays in the Integration of Addressed
+Issues.} \underline{Daniel Alencar da Costa}, Shane McIntosh, Surafel Lemma Abebe,
+Uir\'{a} Kulesza, and Ahmed E. Hassan. In Proceedings of the 30th International
+Conference on Software Maintenance and Evolution (ICSME), 2014, pp. 281--290.\\
+\faTrophy {\em Nominated for best paper award} \faTrophy
+
+\end{itemize}
+
+\noindent The following publications are not directly related to the work that is
+presented in this thesis. Instead, they were produced in parallel to the research performed in this thesis.
+
+\begin{itemize}
+
+\item \textbf{A Framework for Evaluating the Results of the SZZ Approach for
+	Identifying Bug-Introducing Changes.} \underline{Daniel Alencar da
+	Costa}, Shane McIntosh, Weiyi Shang, Uir\'{a} Kulesza, Roberta Coelho,
+	and Ahmed E. Hassan. In the Transactions of Software Engineering Journal
+	(TSE), 2016, 18 pages.
+
+\item \textbf{How does the Shift to GitHub Impact Project Collaboration?} Luiz
+	Felipe Dias, Igor Steinmacher, Gustavo Pinto, \underline{Daniel Alencar
+	da Costa}, and Marco Gerosa. In the 32nd International Conference on
+	Software Maintenance and Evolution (ICSME-ERA), 2016, 5 pages.
+
+	\item \textbf{Unveiling Developers Contributions Behind Code Commits: An
+		Exploratory Study.} \underline{Daniel Alencar da Costa}, Uir\'{a} Kulesza, Eduardo Aranha,
+		and Roberta Coelho. In Proceedings of the 29th Annual ACM Symposium on Applied
+		Computing (SAC), 2014, pp. 1152--1157.
+
+\item \textbf{Assessing and Evolving a Domain Specific Language for Formalizing Software
+	Engineering Experiments: An Empirical Study.} Mar\'{i}lia Freire, Uir\'{a}
+	Kulesza, Eduardo Aranha, Gustavo Nery, \underline{Daniel Alencar da Costa},
+	Andreas Jedlitschka, Edmilson Campos, Silvia Acu\~{n}a, and Marta G\'{o}mez.
+	International Journal of Software Engineering and Knowledge Engineering
+	(IJSEKE), 2014, pp. 1509--1531.
+
+\end{itemize}
+
+\end{sloppypar}
+\newpage
+

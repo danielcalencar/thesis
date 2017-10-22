@@ -1,0 +1,20 @@
+\chapter[How Frequent is Delivery Delay?]{How Frequent is Delivery Delay?} \label{ch:study12}
+
+\keybox{An ealier version of \hyperref[st:study1]{Study}~\ref{st:study1} appears
+in the proceedings of the International Conference on Software Maintenance and
+Evolution (ICSME'14)~\cite{costa2014empirical}.} 
+%Also, the current
+%\hyperref[st:study2]{Studies}~\ref{st:study1} and~\ref{st:study2} compose an
+%extended version of our prior ICSME'14 work and is currently under review in the
+%Journal of Empirical Software Engineering (EMSE).}
+
+\input{chapters/chapter4/introduction}
+\input{chapters/chapter4/casestudy}
+%\input{chapters/chapter4/releasedelay}
+%\input{chapters/chapter4/abnormaldelay}
+\input{chapters/chapter4/discussion2}
+\input{chapters/chapter4/discussion}
+\input{chapters/chapter4/threats}
+\input{chapters/chapter4/relatedwork}
+\input{chapters/chapter4/conclusion}
+

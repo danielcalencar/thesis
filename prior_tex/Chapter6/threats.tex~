@@ -1,0 +1,19 @@
+\section{Threats to Validity} \label{ch6:threats}
+
+
+\textbf{\textit{Internal Validity.}} In our qualitative analysis, we had few
+participants (37). However, such an analysis is important to (i) gain insights
+from additional projects (ArgoUML and Eclipse) and (ii) better understand {\em
+why} delivery delay happens.  Moreover, we choose methods from Grounded Theory
+to perform our qualitative analysis. Although the coding process is performed by
+two authors independently and reviewed by a third author, we cannot claim that
+we reach all the perspectives that are possible from our questions.
+
+\textbf{\textit{External Validity.}} External threats are concerned with our
+ability to generalize our results. We survey participants from three different
+projects (Firefox, ArgoUML, and Eclipse) and perform four follow-up interviews
+to gain deeper insights about the responses that we obtain from our surveys.
+Still, we cannot claim that our results are generalizable to other software
+projects that are not studied in this work.  Hence, replication of this work
+using other projects is required in order to reach more general conclusions.
+

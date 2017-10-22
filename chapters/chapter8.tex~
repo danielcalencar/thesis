@@ -1,0 +1,136 @@
+\chapter[Conclusions]{Conclusions} \label{ch:conclusions}
+
+{\em Issue Tracking Systems} have long been used to manage bug-fixes,
+enhancements or new features (\ie issues). For a software project to achieve a
+sustained success, it has to keep including new exciting features, fixing bugs
+and improving the existent functionality. In addition, failing to address
+issues, may cause a software project to lose its credibility before its users.
+
+On the other hand, addressed issues may suffer undesirable delays before being
+released (\eg delivery delay). In this thesis, we empirically study the
+delays that are involved prior the release of addressed issues to end users. In
+the remainder of this chapter, we outline the contributions of this thesis and
+disclose promising venues for future work.
+
+\section{Contributions and Findings}
+
+\conclusionbox{\textbf{Thesis Statement:} Even though issues are addressed, they
+may still suffer delivery delays that software development teams need to manage.
+Historical data recorded in software repositories can be used to understand and
+estimate delivery delay.}
+
+The overarching goal of this thesis is to understand why addressed issues may
+suffer delivery delays after being addressed. To perform our studies, we
+leverage data that is recorded in {\em Version Control Systems} and {\em Issue
+Tracking Systems} and we survey team members of our subject projects. We answer
+the questions that guided our studies below:
+
+\begin{itemize}
+
+	\item \textbf{\textit{Study~1---How frequent is delivery delay?}}
+		Delivery delays are frequent in our subject projects (\eg 34\%
+		to 98\% of addressed issues were delayed by at least one
+		release). In addition, we find that such addressed issues are
+		unlikely to be delayed solely because they were addressed close
+		to an upcoming release. Finally, we are able to accurately
+		identify addressed issues that are likely to suffer from
+		prolonged delays (obtaining ROC areas above 0.80)
+		(\hyperref[ch:study12]{Chapter}~\ref{ch:study12}). 
+
+	\item \textbf{\textit{Study~2---Do rapid releases reduce delivery
+		delays?}} Rapid releases are not silver bullets to reduce the
+		delivery delay of addressed issues. Instead, rapid releases may
+		improve the consistency of the delivery rate of addressed
+		issues. We find that the time at which an issue is addressed
+		during a release cycle plays a major role in both types of
+		release strategy
+		(\hyperref[ch:study34]{Chapter}~\ref{ch:study34}).
+
+	\item \textbf{\textit{Study~3---Why do delivery delays occur?}} Limited
+		testing capacity and lack of code review are reasons as to why
+		delivery delays occur. Also, the allure of delivering addressed
+		issues more quickly is the main motivator to adopt a rapid
+		release cycle although such a quicker delivery it is not always
+		achieved according to our empirical observations. Integration
+		rush and the increased time that is spent on polishing addressed
+		issues (during rapid releases) emerge as one of the main
+		explanations as to why traditional releases may achieve shorter
+		delivery delays (\hyperref[chapter6]{Chapter}\ref{chapter6}).
+
+\end{itemize}
+
+We observe that our some of our quantitative findings are corroborated by our
+qualitative findings after performing our studies. According to our statistical
+models that are used in \hyperref[ch:study12]{Chapter}~\ref{ch:study12}, the
+number of addressed issues that are accumulated in the backlog plays a major
+role to estimate the delivery delay of addressed issues. We also observe this
+result by analyzing the answers of our participants (see
+\hyperref[find25]{Finding}~\ref{find25}). Although controversial between our
+participants, it is interesting to note that not all of them state that rapid
+releases lead to a quicker delivery of addressed issues (see
+\hyperref[find32]{Finding}~\ref{find32}). Indeed, our quantitative
+\hyperref[find18]{Finding}~\ref{find18} corroborates such a perception of our
+participants. Finally, the {\em time at which an issue is addressed} (a.k.a.
+{\em queue position}) which is one of the most important attributes of our
+statistical models in \hyperref[ch:study34]{Chapter}~\ref{ch:study34}, received
+the highest importance rates from our participants (see
+\hyperref[tbl:factors]{Table}~\ref{tbl:factors}). In addition, our qualitative
+findings help us reach deeper insights about our quantitative findings. For
+example, we observe through our models that factors that are related to team workload may
+strongly impact delivery delays (see \hyperref[find10]{Finding}~\ref{find10}).
+By performing our qualitative analysis, we gather more details as to why
+workload may have such an impact. For instance,
+team workload may produce a lack of personnel to review code, which can
+lead to a delivery delay (see \hyperref[find34]{Finding}~\ref{find34}). Also, the collaboration between teams is important
+because when an addressed issue is prioritized differently by different teams, such
+an issue may suffer from a delivery delay (see
+\hyperref[find28]{Finding}~\ref{find28}).
+
+Our performed studies suggest that even though issues are addressed, they may
+still suffer delivery delays that software development teams need to manage.
+Historical data recorded in software repositories can be used to better
+understand and estimate delivery delays. In addition, future research in
+Software Engineering should not only consider the required time to develop a new
+software functionality when assessing new tools or practices, but also whether
+such new tools or practices will likely help the delivery of new software
+functionalities.  
+
+\section{Future Work}
+
+The studies that are performed in this thesis pave a way for several future
+work possibilities. We outline some venues for future work below. 
+
+\begin{description}
+		
+	\item[Replication.] Future work could replicate the studies that are
+		performed in this thesis using other large scale software
+		projects. Such replication studies are important to reach more
+		generalizable conclusions about delivery delays. For instance,
+		one could study the most important factors related to delivery
+		delays in the industry rather than open source projects.
+
+	\item[Software Quality.] To study the trade-off between delivery delays
+		and software quality is important. For example, one could
+		empirically investigate whether rapid releases deliver software
+		issues with a higher quality despite of the increased delivery
+		delay of addressed issues.
+
+	\item[Tooling.] Several tools could be developed to improve the practice
+		of Software Engineering. For instance, {\em Issue Tracking
+		Systems} could allow the tagging of addressed issues that are
+		going to be delayed. The development team could also fill in the
+		reasons why an addressed issue is being delayed. Such type of
+		features can be used for documentation purposes as well as for
+		letting users and contributors more aware as to why an addressed
+		issue is being delayed.
+
+	\item[Prediction.] A considerable effort has been invested in the
+		prediction of software bugs. Bugs are already known to be
+		harmful for software systems, so that their prediction is of
+		great importance to avoid unwanted costs. Another possibility of
+		future work is the accurate prediction of delivery delays, which
+		could allow for a better planing and risk mitigation in software
+		projects.
+
+\end{description}
+

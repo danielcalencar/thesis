@@ -1,0 +1,122 @@
+\section{Introduction} \label{sec:introduction}
+
+Within the context of constantly evolving requirements (e.g., in \textit{agile}
+development), approaches like eXtreme Programming (XP) and Scrum have arisen to
+foster faster software
+delivery~\cite{beck2000extreme}.\smartfoot{\url{http://www.scrumguides.org/}}
+Those methodologies claim to better embrace a constantly evolving requirements
+context by shortening release cycles. Indeed, modern release cycles are on the
+order of days or weeks rather than months or years~\cite{baskerville2004short}.
+Such rapid releasing enables faster user feedback and a smoother roadmap for
+user adoption.
+
+The allure of delivering new features faster has led many large software
+projects to shift from a more traditional release cycle (\eg 12-18 months to
+ship a major release), to shorter release cycles (\eg weeks). For example,
+Google Chrome, Mozilla Firefox, and Facebook teams have each adopted shorter release
+cycles~\cite{adams2016saner}. In this chapter, we use the terms \textit{rapid releases} to describe
+releases that are shipped using release cycles of weeks or days, and \textit{traditional
+releases} to describe releases that are shipped using release cycles of months or years. 
+
+Prior research has investigated the impact of adopting rapid
+releases \cite{mantyla2014rapid,souza2014rapid,souzabackout,baysal2011tale,khomh2012faster}.
+For example, Khomh~\etal \cite{khomh2012faster} found that bugs that are related to crash
+reports tend to be fixed more quickly in the rapid Firefox releases than the traditional
+ones. M\"antyl\"a~\etal~\cite{mantyla2014rapid} found that the
+Firefox project's shift from a traditional to a rapid release cycle has been
+accompanied by an increase in the testing workload.
+ 
+To the best of our knowledge, little prior research has empirically studied the
+impact that a shift from a traditional to a rapid release cycle has on the speed
+of delivering addressed issues. Such an investigation is important to
+empirically check if adopting a rapid release cycle really does lead to the
+quicker delivery of addressed issues. In
+\hyperref[ch:study12]{Chapter}~\ref{ch:study12}, we study the delay that
+happens before the delivery of an addressed issue. We found that 98\% of the
+addressed issues in the rapid releases of Firefox were prevented from delivery
+in at least one release. Such delayed deliveries hint that even though rapid
+releases are consistently shipped every 6 weeks, they may not be delivering
+addressed issues as quickly as its proponents purport.
+
+Hence, in this chapter, we compare traditional and rapid release cycles with
+respect to delivery delay. We perform a quantitative analysis of 72,114 issue
+reports from the Firefox project (34,673 for traditional releases and 37,441 for
+rapid releases). These issue reports refer to bugs, enhancements, and new
+features~\cite{giuliano2008}. We address the following RQs:
+%
+%In the second study, we set out to qualitatively
+%analyze the delivery delay of addressed issues by surveying 37 participants from
+%the Firefox, Eclipse, and ArgoUML projects.
+
+\begin{itemize}
+
+	\item \textbf{\textit{RQ1: Are addressed issues delivered more quickly
+		in rapid releases?}} Interestingly, we find that although issues
+		are addressed more quickly in rapid releases, they tend to
+		require a longer time to be delivered to users.\\
+
+	\item \textbf{\textit{RQ2: Why can traditional releases deliver
+		addressed issues more quickly?}} We find that minor-traditional
+		releases (\ie releases of smaller scope that are shipped after a
+		major version of the software) are a key reason as to why
+		addressed issues tend to be delivered more quickly in
+		traditional releases. In addition, we find that the length of
+		the release cycles are roughly the same between traditional and
+		rapid releases when considering both minor and major releases,
+		with medians of 40 and 42 days, respectively.\\
+
+	\item \textbf{\textit{RQ3: Did the change in release strategy have an
+		impact on the characteristics of delayed issues?}} Our models
+		suggest that issues are queued up as a project backlog in
+		traditional releases, while issues in rapid releases are queued
+		up on a per release basis (\ie a backlog per release cycle).
+		Issues that are addressed early either in a project or release
+		cycle backlog are less likely to be delayed.
+\end{itemize}  
+
+%\subsection{Study 4---Why Do Delivery Delays Occur?}
+%
+%In this study, we survey 37 developers from the Firefox, Eclipse, and ArgoUML projects to
+%study the perceived impact of delivery delay and the shift from a traditional
+%to a rapid release cycle. More specifically, we address the following research
+%questions:
+%
+%\begin{itemize}
+%
+%	\item \textbf{\textit{RQ4: What are developers' perceptions as to why
+%		delivery delays occur?}} The perceived reasons for
+%		the delivery delay of addressed issues are related to 
+%		decision making, team collaboration, and risk
+%		management activities. Moreover, delivery delay will likely lead to
+%		user/developer frustration according to our participants.\\
+%
+%	\item \textbf{\textit{RQ5: What are developers' perceptions of shifting
+%		to a rapid release cycle?}} The allure of delivering addressed
+%		issues more quickly to users is the most recurrent motivator of
+%		switching to a rapid release cycle. Moreover, the allure of
+%		improving the flexibility and quality of addressed issues is another
+%		advantage that are perceived by our participants.\\
+%
+%	\item \textbf{\textit{RQ6: To what extent do developers agree with our
+%		quantitative findings about delivery delay?}} The dependency
+%		of addressed issues on other projects and team workload are
+%		the main perceived explanations of our findings about
+%		delivery delay in general. Integration rush and increased
+%		time spent on polishing addressed issues (during rapid releases)
+%		emerge as main explanations as to why traditional releases may
+%		achieve shorter delivery delays. 
+%\end{itemize}  
+
+\noindent \textbf{Chapter Organization.} The remainder of this chapter is
+organized as follows. In
+\hyperref[sec:studysettings]{Section}~\ref{sec:studysettings}, we describe the
+design of this study. In \hyperref[ch4:results]{Section}~\ref{ch4:results}, we
+present the obtained results. In
+\hyperref[sec:discussion]{Section}~\ref{sec:discussion}, we analyze potential
+confounding factors that are related to our results. In
+\hyperref[sec:guidelines]{Section}~\ref{sec:guidelines}, we suggest practical
+guidelines based on our study. Finally, we disclose
+the threats to the
+validity of our study in \hyperref[sec:threats]{Section}~\ref{sec:threats} and we draw conclusions in
+\hyperref[sec:conclusion]{Section}~\ref{sec:conclusion}. 
+

@@ -1,0 +1,63 @@
+\newpage
+%\titleformat{\section}{\large\bfseries}{APPENDIX~\refstepcounter{appendixc}\arabic{appendixc}.}{0.5em}{}
+\appendix
+
+\chapter{Firefox Survey}\label{appendix:a}
+
+\includegraphics[width=.9\textwidth]{chapters/chapter5/appendix/Firefox1.pdf}
+
+\includegraphics[width=.9\textwidth]{chapters/chapter5/appendix/Firefox2.pdf}
+
+\includegraphics[width=.9\textwidth]{chapters/chapter5/appendix/Firefox3.pdf}
+
+\includegraphics[width=.9\textwidth]{chapters/chapter5/appendix/Firefox4.pdf}
+
+\includegraphics[width=.9\textwidth]{chapters/chapter5/appendix/Firefox5.pdf}
+
+\includegraphics[width=.9\textwidth]{chapters/chapter5/appendix/Firefox6.pdf}
+
+\includegraphics[width=.9\textwidth]{chapters/chapter5/appendix/Firefox7.pdf}
+
+\chapter{ArgoUML Survey}\label{appendix:b}
+
+\includegraphics[width=.9\textwidth]{chapters/chapter5/appendix/ArgoUML1.pdf}
+
+\includegraphics[width=.9\textwidth]{chapters/chapter5/appendix/ArgoUML2.pdf}
+
+\includegraphics[width=.9\textwidth]{chapters/chapter5/appendix/ArgoUML3.pdf}
+
+\includegraphics[width=.9\textwidth]{chapters/chapter5/appendix/ArgoUML4.pdf}
+
+\includegraphics[width=.9\textwidth]{chapters/chapter5/appendix/ArgoUML5.pdf}
+
+\includegraphics[width=.9\textwidth]{chapters/chapter5/appendix/ArgoUML6.pdf}
+
+\includegraphics[width=.9\textwidth]{chapters/chapter5/appendix/ArgoUML7.pdf}
+
+\includegraphics[width=.9\textwidth]{chapters/chapter5/appendix/ArgoUML8.pdf}
+
+\chapter{Eclipse Survey}\label{appendix:c}
+
+\includegraphics[width=.9\textwidth]{chapters/chapter5/appendix/Eclipse1.pdf}
+
+\includegraphics[width=.9\textwidth]{chapters/chapter5/appendix/Eclipse2.pdf}
+
+\includegraphics[width=.9\textwidth]{chapters/chapter5/appendix/Eclipse3.pdf}
+
+\includegraphics[width=.9\textwidth]{chapters/chapter5/appendix/Eclipse4.pdf}
+
+\includegraphics[width=.9\textwidth]{chapters/chapter5/appendix/Eclipse5.pdf}
+
+\includegraphics[width=.9\textwidth]{chapters/chapter5/appendix/Eclipse6.pdf}
+
+\includegraphics[width=.9\textwidth]{chapters/chapter5/appendix/Eclipse7.pdf}
+
+\includegraphics[width=.9\textwidth]{chapters/chapter5/appendix/Eclipse8.pdf}
+
+\chapter{Methodology Web Page I}\label{methodology:i}
+
+\includegraphics[width=\textwidth]{chapters/chapter5/appendix/GeneralIntegrationDelay.pdf}
+
+\chapter{Methodology Web Page II}\label{methodology:ii}
+
+\includegraphics[width=\textwidth]{chapters/chapter5/appendix/ShiftIntegrationDelay.pdf}

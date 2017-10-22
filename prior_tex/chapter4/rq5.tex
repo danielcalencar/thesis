@@ -1,0 +1,49 @@
+\subsection*{\textbf{\textit{RQ5: How well can we identify the addressed issues
+that will suffer from a long delivery delay?}}}
+
+\noindent\textit{\textbf{Our models obtain 
+F-measures from 0.79 to 0.96.}}
+\hyperref[ch4:tbl:RFclassificationResult_ab]{Table}~\ref{ch4:tbl:RFclassificationResult_ab}
+shows the performance of our exploratory models. Our models that we train for the Eclipse
+project obtain the
+highest F-measure (0.96). On the other hand, our models trained for the Firefox
+and ArgoUML projects
+obtain F-measures of 0.79 and 0.88, respectively. Moreover, our models obtain
+AUC values of 0.82 to 0.96. Such results suggest that our models vastly
+outperform na\"{i}ve models, such as random guessing (AUC value of 0.50).  \\
+
+\begin{table}
+	\footnotesize
+	\centering
+	\caption{\textbf{Performance of the random forest models.} The table
+		shows the values of Precision, Recall, F-measure, and AUC values that
+	are computed for the LOOCV of our models.}
+	\label{ch4:tbl:RFclassificationResult_ab}
+	\begin{tabular}{lccc}
+		\cline{2-4} 
+		& \textbf{Eclipse} & \textbf{Firefox} & \textbf{ArgoUML}\tabularnewline
+		\hline 
+		\textbf{Precision} & 0.97 & 0.99 & 0.98\tabularnewline
+		\hline 
+		\textbf{Recall} & 0.96 & 0.66 & 0.80\tabularnewline
+		\hline 
+		\textbf{F-measure} & 0.96 & 0.79 & 0.88\tabularnewline
+		\hline 
+		\textbf{AUC} & 0.96 & 0.82 & 0.89\tabularnewline
+		\hline 
+	\end{tabular}
+\end{table}
+
+\noindent\textit{\textbf{Our models obtain better F-measure values than
+Zero-R.}} For the Eclipse, Firefox, and ArgoUML projects, Zero-R obtain median F-measures
+of 0.22, 0.22, and 0.36, respectively. Meanwhile, our explanatory models obtain
+F-measures of 0.96, 0.79, and 0.88, respectively. Again, such results suggest
+that our models vastly outperform na\"{i}ve classification techniques.  \\
+
+\conclusionbox{
+We are able to accurately identify whether an addressed issue is likely to have
+a long delivery delay in a given project. Our models outperform na\"{i}ve
+techniques, such as Zero-R and random guessing, obtaining AUC values from 0.82
+to 0.96 (median).
+}
+

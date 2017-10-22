@@ -1,0 +1,62 @@
+\section{Related Work} \label{sec:relatedwork}
+
+In this section, we situate our study with respect to prior work on the impact
+of adopting rapid release cycles.
+
+\textbf{\textit{Traditional vs. Rapid Releases.}} Shifting from traditional
+releases to rapid releases has been shown to have an impact on software quality
+and quality assurance activities.  M\"antyl\"a~\etal~\cite{mantyla2014rapid}
+found that rapid releases have more tests executed per day but with less
+coverage. The authors also found that the number of testers decreased in rapid
+releases, which increased the test workload.  Souza~\etal~\cite{souza2014rapid}
+found that the number of reopened bugs increased by 7\% when Firefox changed to
+a rapid release cycle.  Souza~\etal~\cite{souzabackout} found that backout of
+commits increased when rapid releases were adopted.  However, they note that
+such results may be due to changes in the development process rather than the
+rapid release cycle---the backout culture was not widely adopted during the
+traditional Firefox releases.  We also investigate the shift from traditional
+releases to rapid releases in this paper. However, we analyze delivery delay
+rather than quality and quality assurance activities.
+
+It is not clear yet if rapid releases lead to a faster rate of bugs fixes.
+Baysal~\etal~\cite{baysal2011tale} found that bugs are fixed faster in Firefox
+traditional releases when compared to fixes in the Chrome rapid releases. On the
+other hand, Khomh~\etal~\cite{khomh2012faster} found that bugs that are
+associated with crash reports are fixed faster in rapid Firefox releases when
+compared to Firefox traditional releases.  However, fewer bugs are fixed in
+rapid releases, proportionally. Our study corroborates that issues are addressed
+more quickly in rapid release cycles, but tend to wait longer to be delivered to
+the end users.
+
+Rapid releases may cause users to adopt new versions of the software earlier.
+Baysal~\etal \cite{baysal2011tale} found that users of the Chrome browser are
+more likely to adopt new versions of the system when compared to
+traditional Firefox releases. Khomh~\etal \cite{khomh2012faster} also found that the new
+versions of Firefox that were developed using rapid releases were adopted more
+quickly than the versions under traditional releases. In this paper, we
+investigate the impact that a shift from traditional to rapid releases has on
+delivering addressed issues to users rather than user adoption of new releases.
+%\textbf{\textit{Delays and Software Issues.}} Prior research has studied delays
+%that are related to the integration and delivery of addressed issues to end users.
+%Jiang~\etal \cite{Jiang2013} studied the integration process of the Linux
+%kernel. They found that 33\% of the code patches that were submitted to resolve
+%issues are accepted into an official Linux release after 3 to 6 months. In our
+%prior work~\cite{daempirical2014}, we investigate how many releases an addressed
+%issue may be delayed before shipment.  We found that 98\% of addressed issues in
+%the rapid releases of the Firefox project were delayed by at least one release.
+%Unlike prior work~\cite{daempirical2014}, this paper investigates how the change of
+%release strategy relates to integration delay.
+%
+%Morakot~\etal \cite{riskyissues2015a,riskyissues2015b} study the risk of an
+%issue to introduce delays in the delivery of software releases. The authors
+%found that metrics such as the percentage of delayed issues that a developer is
+%involved with, discussion time, and number of issue reopenings are strongly related to
+%the delay of a software release. Rahman~and~Rigby~\cite{rahmanrelease} found
+%that the period to stabilize addressed issues can take from 45 to 93 days in the
+%Linux kernel and from 56 to 149 days in Chrome. Jiang~\etal~\cite{jiangmuch}
+%propose the ISOMO model to measure the cost of integrating a new patch into a
+%host project. Our work complements the aforementioned studies by quantitatively
+%and qualitatively investigating
+%the impact that the adoption of a rapid release cycle may have upon the
+%integration delay of addressed issues. 
+

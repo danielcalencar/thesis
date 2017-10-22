@@ -1,0 +1,95 @@
+
+>> major concerns
+
+#1 Biased correlations.
+
+The authors should better motivate the use of the "mode" to stablish the
+correlations between structural and logical coupling. Table 4 shows an example
+in which the use of the "mode" would make sense, since it's clear that the
+number of references of the UrSQLController-UrSQLEntity pair was 15 during
+almost of its entire history. Nevertheless, given the scale of the projects
+and different domains that are studies, the evolution of structural coupling
+may be much different for other cases. Consider the example below:
+
+
+Pair X.java - Y.java
+
+revisions    # references
+1            1
+2            3
+3            5
+4            6
+5            6
+6            7
+7            8
+8            30
+9            30
+10           30
+
+In this example, the "mode" would be 30. However, the number of references was
+much lower most of the pair's history. In such cases, I would argue for the use of the
+"median" rather than "mode" in order to avoid bias in the correlations between
+structural and logical coupling.
+
+#2 Not really a strong predictor.
+
+On page 12 in Section 6.12, the authors state that "The structural coupling
+between two classes is therefore a strong predictor of future unplanned and
+necessary co-changes." I would not say so. Indeed, the authors observed that
+structural coupling is associated with logical coupling in 81% of the cases
+(in their data). Nevertheless, the authors did not analyze such an
+association considering the temporal nature of the data. For example, did all of
+the co-changes happen after the introduction of a given structural coupling in
+this 81%? How many co-changes are usually performed in the future after the
+addition of the structural coupling? The authors did not performed a temporal
+analysis to state that one kind of coupling is a strong predictor of the
+other. Instead, the authors only analyze the intersection observed in the data
+regardless of the time at which the events happened. I would remove the term
+"strong predictor" or add an additional temporal analysis to motivate such an
+statement.
+
+#3 Are the structural and logical coupling really related in your analyses?
+
+In RQ3, the authors investigate the stability of the structural links. Such an
+analysis is based on the time at which a given co-change was performed during
+the lifecycle of a structural link. The major issue with this analysis is: how
+did the authors identify that a co-change is related to a given structural
+link? For example, considering the pair that is shown in Figure 4 (C1-C2).
+Would a co-change between C1-C2 be considered to the analysis that is
+performed in RQ3 if such an co-change neither change the variable "gv" nor the
+function "func()"? Such detail is not explained in the methodology of RQ3. For
+example, if a co-change to C1-C2 involved an external configuration file
+rather than the structural links between them, I do not believe that such an
+co-change should be considered in the analysis of RQ3, since this co-change
+could have been performed due external reasons that are not related to the
+structural link that is being analyzed.
+
+>> minor concerns
+
+The authors should better clarify  the importance of the problem that they are
+addressing. For instance, why investigating structural and logical coupling is
+important? And why investigating the interplay between them is important?
+Indeed, the authors list applications of studying such an interplay, but this
+motivation should come earlier in the introduction.
+
+Sometimes the authors are too optimistic about the selling of their work. For
+example, on page 3, Section 2.3, the authors state: "To our knowledge there
+have only been a few studies that have been performed to understand the
+relationship between co-evolution and structural coupling." However, the
+authors cite 9 papers that have already studied such a specific problem.
+Thus, the word "several studies" rather than "few studies" better describes
+the situation. Please change the wording. 
+
+There is no need to say how laborious was the work. For example, on page 6 the
+authors state: "this phase was the most time-intensive" or "this phase of the
+methodology was also very laborious". The value of your research will not be
+evaluated by how difficult was to operationalize it. Please, remove such
+statements.
+
+The authors should be more specific when describing the limitations of prior
+work. For example, on page 3, the authors state that the authors of prior work
+"acknowledge that their results are not really reliable." Why exactly their
+results are not really reliable? Please, such vague wording (too many
+adjectives) during the text.
+
+

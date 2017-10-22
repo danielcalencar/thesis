@@ -1,0 +1,26 @@
+\section{Related Work} \label{ch4:relatedwork}
+
+In this chapter, we present our studies regarding the general delivery delay of
+addressed issues. Hence, we outline related work about possible delays that can
+be related to software issues.
+
+Jiang \etal \cite{Jiang2013} studied attributes that could determine the
+acceptance and integration of a patch into the Linux kernel. A patch is a record
+of changes that is applied to a software system to address an issue. To identify
+such attributes, the authors built decision tree models and conducted top node
+analysis. Among the studied attributes, developer experience, patch maturity,
+and prior subsystem are found to play a major role in patch acceptance and
+integration time.  Choetkiertikul~\etal~\cite{riskyissues2015a,riskyissues2015b}
+study the risk of issues introducing delays that can postpone the shipment of
+new releases of a software project. The authors use local attributes (\ie
+attributes that can be collected in the issue report itself) and network
+attributes (\ie attributes that are extracted from the relationship between
+issues) to perform their analyses.
+
+Similar to Jiang \etal\cite{Jiang2013}, we also investigate the integration of
+addressed issues.  However, we focus on the delivery delay of issues that are
+already addressed rather than the probability to accept a particular patch.
+Differently from Choetkiertikul~\etal~\cite{riskyissues2015a,riskyissues2015b},
+we study the attributes that may induce addressed issues to be prevented from
+delivery rather than the risk of postponing an upcoming release.
+

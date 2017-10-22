@@ -1,0 +1,75 @@
+\section{Threats to Validity} \label{ch4:threats}
+
+\subsection{Construct Validity}
+A number of tools were developed in order to extract and analyze the integration
+data in the studied projects. Defects in these tools could have an influence on
+our results. However, we carefully tested our tools using manually-curated
+subsamples of the studied projects, which produced correct results.
+
+\subsection{Internal Validity}
+The internal threats to validity are concerned with the ability to draw
+conclusions from the relation between the explanatory and response variables.
+
+The main threat in this regard is the representativeness of the data. Although
+the Firefox and Eclipse projects report the list of addressed issues in their
+release notes, we do not know how complete this list truly is. In addition,
+issues may be incorrectly listed in a release note. For example, an issue that
+should have been listed in the release notes for version 2.0 but only appears in
+the release note for version 3.0. Such human errors may introduce noise in our
+datasets. To explore how correct the release notes are, we draw a random sample
+of 120 Firefox addressed issues, each one listed in the release notes of
+versions 17 to 27. We verify the corresponding \textit{tag} that such issues
+were integrated into in the BETA channel, \ie the most stable channel of the
+Firefox project that lead to the RELEASE
+channel.\smartfoot{\url{https://hg.mozilla.org/releases/mozilla-beta/tags}}
+Indeed, 94\% ($\frac{113}{120}$) addressed issues were integrated into the
+corresponding tag that lead to the release for which the release notes have
+listed such issues. This sample can be found on the supplemental material web
+page.\smartfoot{\url{http://sailhome.cs.queensu.ca/replication/integration_delay/}}
+
+Another threat is the method that we use to map the addressed issues to releases in
+the ArgoUML project. This mapping is based on the \textit{target\_milestone}
+which may be more susceptible to human error. Nonetheless, our results obtained
+for the Firefox and Eclipse projects are based on addressed issues that have been
+denoted in the release notes---and that we are more confident about their
+delivery delay.
+
+In addition, the way that we segment the response variable of our explanatory
+models is also subject to bias. For the delivery delay in terms of releases
+(\hyperref[def:1]{Definition}~\ref{def:1}), we segment the response variable
+into \textit{next}, \textit{after-1}, \textit{after-2}, and
+\textit{after-3-or-more}. Although we found it to be a reasonable
+classification, a different classification may yield different results. Also, we
+use at least one MAD above the median as a threshold to split the response
+variable of the prolonged delivery delay
+(\hyperref[def:3]{Definition}~\ref{def:3}) into two categories. A different
+threshold to split the response variable may yield different results.
+
+Moreover, the attributes that we considered in our explanatory models are not
+exhaustive. We choose a starting set of attribute families that can be easily
+computed through publicly available data sources such as ITSs and VCSs. The
+addition of other attributes would likely improve model performance. For
+instance, one could study testing or code review effort that was
+invested on an addressed issue. Nonetheless, our random forest models performed well
+compared to random guessing and Zero-R models with the current set of attributes
+and response variable segmentation. With respect to our linear regression
+models, we base our observations using models that obtain 39\% to 65\% of
+variability explained. Although higher $R^2$ values are usually targeted in
+research, we provide a sound starting point of regression models for studying
+delivery delay phenomena---especially in a field that involves human
+intervention, such as software engineering.
+
+Finally, the main limitation of our statistical models (\ie random forests and
+linear regressions) is that we cannot claim a causal relationship between our
+exploratory variables (\ie the studied attributes) and delivery delay.
+Instead, our conclusions are based on associations that are drawn from the
+average behavior of our studied projects' data.
+
+\subsection{External Validity}
+External threats are concerned with our ability to generalize our results. In
+our work, we investigated only three open source projects. Although the projects
+that we considered in our study are of different sizes and domains, and
+prescribing to different release policies, our findings may not generalize to
+other projects. Replication of this work in a large set of projects is required
+in order to reach more general conclusions.
+

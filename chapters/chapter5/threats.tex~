@@ -1,0 +1,55 @@
+\section{Threats to Validity} \label{sec:threats}
+
+\textbf{\textit{Construct Validity.}} Construct threats to validity are
+concerned with the degree to which our analyses are measuring what we are
+claiming to analyze. Tools were developed to extract and analyze the
+delivery delay data in the studied projects. Defects in these tools could have an
+influence on our results. However, we carefully tested our tools using
+manually-curated subsamples of the studied projects, which produced consistent
+results.
+
+\textbf{\textit{Internal Validity.}} Internal threats to validity are concerned
+with the ability to draw conclusions from the relation between the independent
+and dependent variables. The way that we link issue IDs to releases may not
+represent the total addressed issues per release. For example, although Firefox
+developers record issue IDs in commit logs, we do not know how many of the
+addressed issues were not recorded in the VCS. Techniques that improve the
+quality of the link between issue reports and commit logs could prove useful for
+future work.
+
+In \hyperref[sec:discussion]{Section}~\ref{sec:discussion}, we compare the
+delivery delay between rapid and traditional releases by grouping the issues
+as bug fixes or enhancements. We use the \textit{severity} field of the issue
+reports to perform this grouping.  We are aware that the severity field is
+noisy~\cite{Herraiz2008,tian2015unreliability} (\ie many values represent the
+same level of importance). Still, the \textit{enhancement} severity is one of
+the significantly different values of severity according to previous
+research~\cite{Herraiz2008}. We also use the number of files, packages, and the
+LOC to approximate the \textit{size} of an issue. Although these are widely used
+metrics to measure the size of a change, we are aware that this might not
+represent the true complexity of the fix of an issue.
+%
+%In our qualitative analysis, we had few participants (37). However, such an
+%analysis is important to (i) gain insights from additional projects (ArgoUML and
+%Eclipse) and (ii) better understand {\em why} delivery delay happens.
+%Moreover, we choose methods from Grounded Theory to perform our qualitative
+%analysis. Although the coding process is performed by two authors independently
+%and reviewed by a third author, we cannot claim that we reach all the
+%perspectives that are possible from our questions.
+
+\textbf{\textit{External Validity.}} External threats are concerned with our
+ability to generalize our results. We
+study Firefox releases, since the Firefox project shifted from a traditional
+release cycle to a rapid release cycle. Although we control for variations using
+the same studied project in different time periods, we are not able to generalize
+our conclusions to other projects that adopt a traditional/rapid release cycle.
+In order to mitigate the external threat, we also perform a qualitative study of
+the Firefox, ArgoUML, and Eclipse projects (see
+\hyperref[chapter6]{Chapter}~\ref{chapter6}). By adding two other projects in our
+qualitative analysis, and analyzing new sources of data (our participants), we are
+able to gain insights from other subjects and better understand why delivery
+delay occurs. Still, we cannot claim that our results are generalizable to other
+software projects that are not studied in this work. Hence, replication of this
+work using other projects is required in order to reach more general
+conclusions.
+

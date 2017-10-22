@@ -1,0 +1,21 @@
+\select@language {english}
+\select@language {english}
+\contentsline {table}{\numberline {1}{\ignorespaces \textbf {Overview of the studied projects.} We present the number of studied releases, issues, the studied period and the median time between releases.\relax }}{32}{table.caption.11}
+\contentsline {table}{\numberline {2}{\ignorespaces \textbf {Statistical analysis.} An overview of the $p$-$values$ and $deltas$ that are observed during our statistical analyses. \relax }}{41}{table.caption.18}
+\contentsline {table}{\numberline {3}{\ignorespaces \textbf {Reporter, Resolver and Issue families.} Attributes of the Reporter, Resolver and Issue families that are used to model the delivery delay of addressed issues \relax }}{45}{table.caption.20}
+\contentsline {table}{\numberline {4}{\ignorespaces \textbf {Project family.} Attributes of the Project family that is used to model the delivery delay of an addressed issue. \relax }}{46}{table.caption.22}
+\contentsline {table}{\numberline {5}{\ignorespaces \textbf {Process family.} Attributes of the Process family that is used to model the delivery delay of an addressed issue. \relax }}{47}{table.caption.24}
+\contentsline {table}{\numberline {6}{\ignorespaces The precision, recall, F-measure, and AUC values that are obtained for the Eclipse, Firefox, and ArgoUML projects. \relax }}{51}{table.caption.28}
+\contentsline {table}{\numberline {7}{\ignorespaces \textbf {Regression results of model fit.} Our explanatory models obtain $R^2$ values between 0.39 to 0.65 and MAE values between 7.8 to 66 days.\relax }}{53}{table.caption.29}
+\contentsline {table}{\numberline {8}{\ignorespaces \textbf {Explanatory power of attributes.} We present the $\chi ^2$ proportion and the degrees of freedom that are spent for each attribute. The $\chi ^2$ of the two most influential attributes of each model are in bold. \relax }}{59}{table.caption.33}
+\contentsline {table}{\numberline {9}{\ignorespaces \textbf {Prolonged delivery delay thresholds.} We present the median delivery delay in terms of days, the MAD, and the prolonged delivery delay threshold for each project.\relax }}{62}{table.caption.38}
+\contentsline {table}{\numberline {10}{\ignorespaces \textbf {Performance of the random forest models.} The table shows the values of Precision, Recall, F-measure, and AUC values that are computed for the LOOCV of our models.\relax }}{64}{table.caption.39}
+\contentsline {table}{\numberline {11}{\ignorespaces The studied traditional and rapid Firefox releases. \relax }}{76}{table.caption.43}
+\contentsline {table}{\numberline {12}{\ignorespaces Metrics that are used in our explanatory models (Reporter, Resolver, and Issue families). \relax }}{84}{table.caption.48}
+\contentsline {table}{\numberline {13}{\ignorespaces Metrics that are used in our explanatory models (Project family). \relax }}{85}{table.caption.49}
+\contentsline {table}{\numberline {14}{\ignorespaces Metrics that are used in our explanatory models (Process family). \relax }}{86}{table.caption.50}
+\contentsline {table}{\numberline {15}{\ignorespaces Overview of the regression model fits. The $\chi ^2$ of each metric is shown as the proportion in relation to the total $\chi ^2$ of the model. \relax }}{88}{table.caption.52}
+\contentsline {table}{\numberline {16}{\ignorespaces \textbf {Survey questions (excerpt).} Each horizontal line indicates a page break. \relax }}{98}{table.caption.58}
+\contentsline {table}{\numberline {17}{\ignorespaces Participant range per subject project. \relax }}{100}{table.caption.59}
+\contentsline {table}{\numberline {18}{\ignorespaces Rating of factors related to delivery delay. The highest ratings are in bold. \relax }}{106}{table.caption.66}
+\contentsline {table}{\numberline {19}{\ignorespaces $P$-$values$ of the comparisons between factors. Values in bold are $<$ 0.05. \relax }}{107}{table.caption.68}

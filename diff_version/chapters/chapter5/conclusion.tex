@@ -1,0 +1,92 @@
+\section{Conclusions} \label{sec:conclusion}
+
+In this chapter, we perform a study about the impact that
+rapid release cycles have on delivery delays. In our study, we analyze
+a total of 72,114 issue reports of 111 traditional releases and 73 rapid
+releases of the Firefox project. We obtain the following results:
+
+\begin{itemize}
+
+	\item Although issues tend to be addressed more quickly in the rapid
+		release cycle, addressed issues tend to be \DIFdelbegin \DIFdel{integrated into
+		}\DIFdelend \DIFaddbegin \DIFadd{delivered by 
+		}\DIFaddend consumer-visible releases more quickly in the traditional
+		release cycle. However, a rapid release cycle may improve the
+		consistency of the delivery rate of addressed issues (see
+		\DIFdelbegin %DIFDELCMD < \hyperref[obs:2]{Observation}%%%
+\DIFdel{~\ref{obs:2}}\DIFdelend \DIFaddbegin \hyperref[find18]{Finding}\DIFadd{~\ref{find18}}\DIFaddend ).
+
+	\item We observe that the faster delivery of addressed issues in the
+		traditional releases is partly due to minor-traditional
+		releases. One suggestion for practitioners is that more effort
+		should be invested in accommodating minor releases to issues
+		that are urgent without compromising the quality of the other
+		releases that are being shipped (see
+		\DIFdelbegin %DIFDELCMD < \hyperref[obs:3]{Observation}%%%
+\DIFdel{~\ref{obs:3}}\DIFdelend \DIFaddbegin \hyperref[find19]{Finding}\DIFadd{~\ref{find19}}\DIFaddend ).
+
+	\item The triaging time of issues is not significantly different among
+		the traditional and rapid releases (see
+		\DIFdelbegin %DIFDELCMD < \hyperref[obs:2]{Observation}%%%
+\DIFdel{~\ref{obs:2}}\DIFdelend \DIFaddbegin \hyperref[find18]{Finding}\DIFadd{~\ref{find18}}\DIFaddend ).
+
+	\item The total time that is spent from the issue report date to its
+		\DIFdelbegin \DIFdel{integration into a release }\DIFdelend \DIFaddbegin \DIFadd{delivery }\DIFaddend is not significantly different
+		between traditional and rapid releases (see
+		\DIFdelbegin %DIFDELCMD < \hyperref[obs:1]{Observation}%%%
+\DIFdel{~\ref{obs:1}}\DIFdelend \DIFaddbegin \hyperref[find17]{Finding}\DIFadd{~\ref{find17}}\DIFaddend ).
+
+	\item In traditional releases, addressed issues are less likely to be
+		delayed if they are addressed recently in the backlog. On the
+		other hand, in rapid releases, addressed issues are less likely
+		to be delayed if they are addressed recently in the current
+		release cycle (see \DIFdelbegin %DIFDELCMD < \hyperref[obs:6]{Observation}%%%
+\DIFdel{~\ref{obs:6}). 
+%DIF < 
+%DIF < 	\item  The perceived reasons for delivery delay of addressed issues
+%DIF < 		are primarily related to activities such as development, decision making, team
+%DIF < 		collaboration, and risk management (see
+%DIF < 		\hyperref[th:1]{Themes}~\ref{th:1},~\ref{th:2},~\ref{th:3},~and~\ref{th:5}). 
+%DIF < 
+%DIF < 	\item  The dependency of issues on other projects and team workload are the main
+%DIF < 		perceived reasons to explain our data about delivery delay in
+%DIF < 		general (see \hyperref[th:1]{Theme}~\ref{th:1}).  
+%DIF < 		
+%DIF < 	\item  The allure of delivering addressed issues more quickly to users
+%DIF < 		is the most recurrent motivator for switching to a rapid release
+%DIF < 		cycle (see \hyperref[th:7]{Theme}~\ref{th:7}). In addition, the
+%DIF < 		allure of improving management flexibility and quality of
+%DIF < 		addressed issues are other advantages that are perceived by our
+%DIF < 		participants (see \hyperref[th:6]{Themes}~\ref{th:6}~and~\ref{th:8}).
+%DIF < 
+%DIF < 	\item Integration rush and the increased time that is spent on polishing
+%DIF < 		addressed issues (during rapid releases) emerge as one of the main
+%DIF < 		explanations as to why traditional releases may achieve shorter
+%DIF < 		delivery delays (see
+%DIF < 		\hyperref[th:10]{Theme}~\ref{th:10}).
+}\DIFdelend \DIFaddbegin \hyperref[find22]{Finding}\DIFadd{~\ref{find22}). 
+}\DIFaddend 
+
+\end{itemize}
+
+This study is the first to empirically check whether rapid releases ship
+addressed issues more quickly than traditional releases. Our findings suggest
+that there is no silver bullet to deliver addressed issues more quickly.
+Instead, rapid releases may increase the consistency of the delivery rate of
+addressed issues to end users.
+
+ %DIF < Although the bulk of our analyses comes mainly from the Firefox project given
+%DIF < the very unique nature of this project (and the availability of the data), we
+%DIF < believe that the impact of our findings and work goes well beyond the Firefox
+%DIF < project. Today the Firefox project is often used in support of proposals for
+%DIF < moving to a rapid release cycle throughout many development organizations
+%DIF < worldwide. Yet there has never been any studies that extensively explored the
+%DIF < benefits and challenges of rapid release cycles on any project (till our work).
+%DIF < In this regard, our quantitative and qualitative observations may serve any
+%DIF < organization that is interested in adopting a rapid release cycle. For instance,
+%DIF < even though the allure of delivering addressed issues more quickly is the most
+%DIF < recurrent motivator to adopt rapid releases (\hyperref[th:7]{Theme}~\ref{th:7}),
+%DIF < we observe that this often is not achieved
+%DIF < (\hyperref[obs:2]{Observation}~\ref{obs:2}). In summary, our study provides real
+%DIF < observations and offers a wider context of the dis/advantages of adopting a
+%DIF < rapid release strategy.

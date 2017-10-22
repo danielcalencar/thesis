@@ -1,0 +1,8 @@
+\chapter[Why do Delivery Delays Occur?]{Why do Delivery Delays Occur?} \label{chapter6}
+
+\input{chapters/chapter6/introduction}
+\input{chapters/chapter6/empiricalstudy}
+\input{chapters/chapter6/discussion}
+\input{chapters/chapter6/threats}
+%\input{chapters/chapter6/relatedwork}
+\input{chapters/chapter6/conclusion}

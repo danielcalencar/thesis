@@ -1,0 +1,399 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.5 }
+
+\bibitem[Adams e McIntosh 2016]{adams2016saner}
+\abntrefinfo{Adams e McIntosh}{ADAMS; MCINTOSH}{2016}
+{ADAMS, B.; MCINTOSH, S. {Modern Release Engineering in a Nutshell: Why
+  Researchers should Care}. In:  \emph{Proceedings of the 23rd International
+  Conference on Software Analysis, Evolution, and Reengineering (SANER)}.
+  [S.l.: s.n.], 2016. p. 78--90.}
+
+\bibitem[AlGhamdi et al. 2016]{alghamdi2016automated}
+\abntrefinfo{AlGhamdi et al.}{ALGHAMDI et al.}{2016}
+{ALGHAMDI, H.~M. et al. An automated approach for recommending when to stop
+  performance tests. In:  IEEE. \emph{Proceedings of the International
+  Conference on Software Maintenance and Evolution}. [S.l.], 2016. p.
+  toAppear.}
+
+\bibitem[Anbalagan e Vouk 2009]{Anbalagan2009}
+\abntrefinfo{Anbalagan e Vouk}{ANBALAGAN; VOUK}{2009}
+{ANBALAGAN, P.; VOUK, M. On predicting the time taken to correct bug reports in
+  open source projects. In:  \emph{Proceedings of the 2009 IEEE International
+  Conference on Software Maintenance}. [S.l.: s.n.], 2009.  (ICSM '09), p.
+  523--526.}
+
+\bibitem[Antoniol et al. 2008]{giuliano2008}
+\abntrefinfo{Antoniol et al.}{ANTONIOL et al.}{2008}
+{ANTONIOL, G. et al. Is it a bug or an enhancement?: a text-based approach to
+  classify change requests. In:  \emph{Proceedings of the 2008 conference of
+  the Centre for Advanced Studies on Collaborative Research (CASCON)}. [S.l.:
+  s.n.], 2008. p. 23--37.}
+
+\bibitem[Anvik, Hiew e Murphy 2005]{Anvik2005}
+\abntrefinfo{Anvik, Hiew e Murphy}{ANVIK; HIEW; MURPHY}{2005}
+{ANVIK, J.; HIEW, L.; MURPHY, G.~C. Coping with an open bug repository. In:
+  \emph{Proceedings of the 2005 OOPSLA Workshop on Eclipse Technology
+  eXchange}. [S.l.: s.n.], 2005.  (eclipse '05), p. 35--39.}
+
+\bibitem[Anvik, Hiew e Murphy 2006]{Anvik2006}
+\abntrefinfo{Anvik, Hiew e Murphy}{ANVIK; HIEW; MURPHY}{2006}
+{ANVIK, J.; HIEW, L.; MURPHY, G.~C. Who should fix this bug? In:
+  \emph{Proceedings of the 28th International Conference on Software
+  Engineering}. [S.l.: s.n.], 2006.  (ICSE '06), p. 361--370.}
+
+\bibitem[Baskerville e Pries-Heje 2004]{baskerville2004short}
+\abntrefinfo{Baskerville e Pries-Heje}{BASKERVILLE; PRIES-HEJE}{2004}
+{BASKERVILLE, R.; PRIES-HEJE, J. Short cycle time systems development. In:
+  \emph{Information Systems Journal}. [S.l.: s.n.], 2004. v.~14, n.~3, p.
+  237--264.}
+
+\bibitem[Baysal, Davis e Godfrey 2011]{baysal2011tale}
+\abntrefinfo{Baysal, Davis e Godfrey}{BAYSAL; DAVIS; GODFREY}{2011}
+{BAYSAL, O.; DAVIS, I.; GODFREY, M.~W. A tale of two browsers. In:  ACM.
+  \emph{Proceedings of the 8th Working Conference on Mining Software
+  Repositories (MSR)}. [S.l.], 2011. p. 238--241.}
+
+\bibitem[Beck 2000]{beck2000extreme}
+\abntrefinfo{Beck}{BECK}{2000}
+{BECK, K. Extreme programming explained: embrace change. In:  . [S.l.]:
+  Addison-Wesley Professional, 2000.}
+
+\bibitem[Beller, Gousios e Zaidman 2015]{beller2015much}
+\abntrefinfo{Beller, Gousios e Zaidman}{BELLER; GOUSIOS; ZAIDMAN}{2015}
+{BELLER, M.; GOUSIOS, G.; ZAIDMAN, A. How (much) do developers test? In:  IEEE.
+  \emph{2015 IEEE/ACM 37th IEEE International Conference on Software
+  Engineering}. [S.l.], 2015. v.~2, p. 559--562.}
+
+\bibitem[Bhattacharya e Neamtiu 2011]{Bhattacharya2011}
+\abntrefinfo{Bhattacharya e Neamtiu}{BHATTACHARYA; NEAMTIU}{2011}
+{BHATTACHARYA, P.; NEAMTIU, I. Bug-fix time prediction models: Can we do
+  better? In:  \emph{Proceedings of the 8th Working Conference on Mining
+  Software Repositories}. [S.l.: s.n.], 2011.  (MSR '11), p. 207--210.}
+
+\bibitem[Breiman 2001]{RandomForest2001}
+\abntrefinfo{Breiman}{BREIMAN}{2001}
+{BREIMAN, L. Random forests. In:  \emph{Machine Learning}. [S.l.: s.n.], 2001.
+  (Springer Journal no. 10994), p. 5--32.}
+
+\bibitem[Brooks 1975]{mythical}
+\abntrefinfo{Brooks}{BROOKS}{1975}
+{BROOKS, F.~P. \emph{The mythical man-month}. [S.l.]: Addison-Wesley Reading,
+  MA, 1975. v.~1995.}
+
+\bibitem[Cliff 1993]{cliff1993dominance}
+\abntrefinfo{Cliff}{CLIFF}{1993}
+{CLIFF, N. Dominance statistics: Ordinal analyses to answer ordinal questions.
+  In:  \emph{Psychological Bulletin}. [S.l.: s.n.], 1993. v.~114, n.~3, p.
+  494--509.}
+
+\bibitem[Costa et al. 2014]{costa2014empirical}
+\abntrefinfo{Costa et al.}{COSTA et al.}{2014}
+{COSTA, D. A.~d. et al. An empirical study of delays in the integration of
+  addressed issues. In:  \emph{Software Maintenance and Evolution (ICSME), 2014
+  IEEE International Conference on}. [S.l.: s.n.], 2014. p. 281--290.}
+
+\bibitem[Costa et al. 2016]{da2016impact}
+\abntrefinfo{Costa et al.}{COSTA et al.}{2016}
+{COSTA, D.~A. da et al. The impact of switching to a rapid release cycle on the
+  integration delay of addressed issues: an empirical study of the mozilla
+  firefox project. In:  ACM. \emph{Proceedings of the 13th International
+  Workshop on Mining Software Repositories}. [S.l.], 2016. p. 374--385.}
+
+\bibitem[Delone e McLean 2003]{delone2003delone}
+\abntrefinfo{Delone e McLean}{DELONE; MCLEAN}{2003}
+{DELONE, W.~H.; MCLEAN, E.~R. The delone and mclean model of information
+  systems success: a ten-year update.
+\emph{Journal of management information systems}, v.~19, n.~4, p. 9--30, 2003.}
+
+\bibitem[Dunn 1961]{dunn1961multiple}
+\abntrefinfo{Dunn}{DUNN}{1961}
+{DUNN, O.~J. Multiple comparisons among means.
+\emph{Journal of the American Statistical Association}, Taylor \& Francis
+  Group, v.~56, n.~293, p. 52--64, 1961.}
+
+\bibitem[Dunn 1964]{dunn1964multiple}
+\abntrefinfo{Dunn}{DUNN}{1964}
+{DUNN, O.~J. Multiple comparisons using rank sums.
+\emph{Technometrics}, Taylor \& Francis, v.~6, n.~3, p. 241--252, 1964.}
+
+\bibitem[Efron 1986]{efron1986biased}
+\abntrefinfo{Efron}{EFRON}{1986}
+{EFRON, B. How biased is the apparent error rate of a prediction rule?
+\emph{Journal of the American Statistical Association}, Taylor \& Francis,
+  v.~81, n.~394, p. 461--470, 1986.}
+
+\bibitem[Fisher 1925]{fisher1925statistical}
+\abntrefinfo{Fisher}{FISHER}{1925}
+{FISHER, R.~A. \emph{Statistical methods for research workers}. [S.l.]: Genesis
+  Publishing Pvt Ltd, 1925.}
+
+\bibitem[Freedman 2009]{freedman2009statistical}
+\abntrefinfo{Freedman}{FREEDMAN}{2009}
+{FREEDMAN, D.~A. \emph{Statistical models: theory and practice}. [S.l.]:
+  cambridge university press, 2009.}
+
+\bibitem[Giger, Pinzger e Gall 2010]{Giger2010}
+\abntrefinfo{Giger, Pinzger e Gall}{GIGER; PINZGER; GALL}{2010}
+{GIGER, E.; PINZGER, M.; GALL, H. Predicting the fix time of bugs. In:
+  \emph{Proceedings of the 2nd International Workshop on Recommendation Systems
+  for Software Engineering}. [S.l.: s.n.], 2010.  (RSSE '10), p. 52--56.}
+
+\bibitem[Guo et al. 2010]{Guo2010}
+\abntrefinfo{Guo et al.}{GUO et al.}{2010}
+{GUO, P.~J. et al. Characterizing and predicting which bugs get fixed: An
+  empirical study of microsoft windows. In:  \emph{Proceedings of the 32Nd
+  ACM/IEEE International Conference on Software Engineering - Volume 1}. [S.l.:
+  s.n.], 2010.  (ICSE '10), p. 495--504.}
+
+\bibitem[Hanley e McNeil 1982]{hanley1982meaning}
+\abntrefinfo{Hanley e McNeil}{HANLEY; MCNEIL}{1982}
+{HANLEY, J.~A.; MCNEIL, B.~J. The meaning and use of the area under a receiver
+  operating characteristic (roc) curve.
+\emph{Radiology}, v.~143, n.~1, p. 29--36, 1982.}
+
+\bibitem[Harrell 2001]{harrell2001regression}
+\abntrefinfo{Harrell}{HARRELL}{2001}
+{HARRELL, F.~E. \emph{Regression modeling strategies: with applications to
+  linear models, logistic regression, and survival analysis}. [S.l.]: Springer,
+  2001.}
+
+\bibitem[Herbsleb e Mockus 2003]{herbsleb2003empirical}
+\abntrefinfo{Herbsleb e Mockus}{HERBSLEB; MOCKUS}{2003}
+{HERBSLEB, J.~D.; MOCKUS, A. An empirical study of speed and communication in
+  globally distributed software development.
+\emph{IEEE Transactions on software engineering}, IEEE, v.~29, n.~6, p.
+  481--494, 2003.}
+
+\bibitem[Herraiz et al. 2008]{Herraiz2008}
+\abntrefinfo{Herraiz et al.}{HERRAIZ et al.}{2008}
+{HERRAIZ, I. et al. Towards a simplification of the bug report form in eclipse.
+  In:  \emph{Proceedings of the 2008 International Working Conference on Mining
+  Software Repositories}. [S.l.: s.n.], 2008.  (MSR '08), p. 145--148.}
+
+\bibitem[Hooimeijer e Weimer 2007]{Hooimeijer2007}
+\abntrefinfo{Hooimeijer e Weimer}{HOOIMEIJER; WEIMER}{2007}
+{HOOIMEIJER, P.; WEIMER, W. Modeling bug report quality. In:  \emph{Proceedings
+  of the Twenty-second IEEE/ACM International Conference on Automated Software
+  Engineering}. [S.l.: s.n.], 2007.  (ASE '07), p. 34--43.}
+
+\bibitem[Howell 2005]{howell2005median}
+\abntrefinfo{Howell}{HOWELL}{2005}
+{HOWELL, D.~C. Median absolute deviation. In:  \emph{Encyclopedia of Statistics
+  in Behavioral Science}. [S.l.: s.n.], 2005.}
+
+\bibitem[Iasonos et al. 2008]{iasonos2008build}
+\abntrefinfo{Iasonos et al.}{IASONOS et al.}{2008}
+{IASONOS, A. et al. How to build and interpret a nomogram for cancer prognosis.
+  In:  \emph{Journal of Clinical Oncology}. [S.l.]: American Society of
+  Clinical Oncology, 2008. v.~26, n.~8, p. 1364--1370.}
+
+\bibitem[Jeong, Kim e Zimmermann 2009]{Jeong2009}
+\abntrefinfo{Jeong, Kim e Zimmermann}{JEONG; KIM; ZIMMERMANN}{2009}
+{JEONG, G.; KIM, S.; ZIMMERMANN, T. Improving bug triage with bug tossing
+  graphs. In:  \emph{Proceedings of the the 7th joint meeting of the European
+  software engineering conference and the ACM SIGSOFT symposium on The
+  foundations of software engineering}. [S.l.: s.n.], 2009. p. 111--120.}
+
+\bibitem[Jiang, Adams e German 2013]{Jiang2013}
+\abntrefinfo{Jiang, Adams e German}{JIANG; ADAMS; GERMAN}{2013}
+{JIANG, Y.; ADAMS, B.; GERMAN, D.~M. Will my patch make it? and how fast?: Case
+  study on the linux kernel. In:  \emph{Proceedings of the 10th Working
+  Conference on Mining Software Repositories}. [S.l.: s.n.], 2013.  (MSR '13),
+  p. 101--110.}
+
+\bibitem[Kampstra et al. 2008]{kampstra2008beanplot}
+\abntrefinfo{Kampstra et al.}{KAMPSTRA et al.}{2008}
+{KAMPSTRA, P. et al. Beanplot: A boxplot alternative for visual comparison of
+  distributions. In:  \emph{Journal of Statistical Software}. [S.l.: s.n.],
+  2008. v.~28, n.~1, p.~1--9.}
+
+\bibitem[Khomh et al. 2012]{khomh2012faster}
+\abntrefinfo{Khomh et al.}{KHOMH et al.}{2012}
+{KHOMH, F. et al. Do faster releases improve software quality? an empirical
+  case study of mozilla firefox. In:  IEEE. \emph{Proceedings of the 9th IEEE
+  Working Conference on Mining Software Repositories (MSR)}. [S.l.], 2012. p.
+  179--188.}
+
+\bibitem[Kim e Whitehead Jr. 2006]{Kim2006}
+\abntrefinfo{Kim e Whitehead Jr.}{KIM; WHITEHEAD JR.}{2006}
+{KIM, S.; WHITEHEAD JR., E.~J. How long did it take to fix bugs? In:
+  \emph{Proceedings of the 2006 International Workshop on Mining Software
+  Repositories}. [S.l.: s.n.], 2006.  (MSR '06), p. 173--174.}
+
+\bibitem[Kruskal e Wallis 1952]{kruskal1952use}
+\abntrefinfo{Kruskal e Wallis}{KRUSKAL; WALLIS}{1952}
+{KRUSKAL, W.~H.; WALLIS, W.~A. Use of ranks in one-criterion variance analysis.
+\emph{Journal of the American statistical Association}, Taylor \& Francis,
+  v.~47, n.~260, p. 583--621, 1952.}
+
+\bibitem[Leys et al. 2013]{leys2013detecting}
+\abntrefinfo{Leys et al.}{LEYS et al.}{2013}
+{LEYS, C. et al. Detecting outliers: Do not use standard deviation around the
+  mean, use absolute deviation around the median. In:  \emph{Experimental
+  Social Psychology Journal}. [S.l.: s.n.], 2013. v.~49, p. 764--766.}
+
+\bibitem[M{\"a}ntyl{\"a} et al. 2014]{mantyla2014rapid}
+\abntrefinfo{M{\"a}ntyl{\"a} et al.}{M{\"A}NTYL{\"A} et al.}{2014}
+{M{\"A}NTYL{\"A}, M.~V. et al. On rapid releases and software testing: a case
+  study and a semi-systematic literature review. In:  \emph{Journal of
+  Empirical Software Engineering}. [S.l.]: Springer, 2014. p. 1--42.}
+
+\bibitem[Mantyla et al. 2013]{Mantyla2013}
+\abntrefinfo{Mantyla et al.}{MANTYLA et al.}{2013}
+{MANTYLA, M.~V. et al. On rapid releases and software testing. In:
+  \emph{Software Maintenance (ICSM), 2013 29th IEEE International Conference
+  on}. [S.l.: s.n.], 2013. p. 20--29.}
+
+\bibitem[Marks, Zou e Hassan 2011]{Marks2011}
+\abntrefinfo{Marks, Zou e Hassan}{MARKS; ZOU; HASSAN}{2011}
+{MARKS, L.; ZOU, Y.; HASSAN, A.~E. Studying the fix-time for bugs in large open
+  source projects. In:  \emph{Proceedings of the 7th International Conference
+  on Predictive Models in Software Engineering}. [S.l.: s.n.], 2011.  (Promise
+  '11), p. 11:1--11:8.}
+
+\bibitem[McIntosh et al. 2016]{mcintosh2016emse}
+\abntrefinfo{McIntosh et al.}{MCINTOSH et al.}{2016}
+{MCINTOSH, S. et al. {An Empirical Study of the Impact of Modern Code Review
+  Practices on Software Quality}.
+\emph{Empirical Software Engineering}, v.~21, n.~5, p. 2146--2189, 2016.}
+
+\bibitem[Mockus, Fielding e Herbsleb 2002]{Mockus:2002}
+\abntrefinfo{Mockus, Fielding e Herbsleb}{MOCKUS; FIELDING; HERBSLEB}{2002}
+{MOCKUS, A.; FIELDING, R.~T.; HERBSLEB, J.~D. Two case studies of open source
+  software development: Apache and mozilla.
+\emph{ACM Trans. Softw. Eng. Methodol.}, v.~11, n.~3, p. 309--346, 2002.}
+
+\bibitem[Morakot et al. 2015]{riskyissues2015a}
+\abntrefinfo{Morakot et al.}{MORAKOT et al.}{2015a}
+{MORAKOT, C. et al. Characterization and prediction of issue-related risks in
+  software projects. In:  \emph{12th {IEEE/ACM} Working Conference on Mining
+  Software Repositories, {MSR} 2015, Florence, Italy, May 16-17, 2015}. [S.l.:
+  s.n.], 2015. p. 280--291.}
+
+\bibitem[Morakot et al. 2015]{riskyissues2015b}
+\abntrefinfo{Morakot et al.}{MORAKOT et al.}{2015b}
+{MORAKOT, C. et al. Predicting delays in software projects using networked
+  classification. In:  \emph{30th {IEEE/ACM} International Conference on
+  Automated Software Engineering {ASE}, Lincoln, Nebraska, USA, November 9-13,
+  2015}. [S.l.: s.n.], 2015.}
+
+\bibitem[Nagappan e Ball 2005]{Nagappan2005}
+\abntrefinfo{Nagappan e Ball}{NAGAPPAN; BALL}{2005}
+{NAGAPPAN, N.; BALL, T. Use of relative code churn measures to predict system
+  defect density. In:  \emph{Software Engineering, 2005. ICSE 2005.
+  Proceedings. 27th International Conference on}. [S.l.: s.n.], 2005. p.
+  284--292.}
+
+\bibitem[Olkin 2002]{springertexts}
+\abntrefinfo{Olkin}{OLKIN}{2002}
+{OLKIN, G. C. S. F.~I. Springer texts in statistics.
+2002.}
+
+\bibitem[Panjer 2007]{Panjer2007}
+\abntrefinfo{Panjer}{PANJER}{2007}
+{PANJER, L.~D. Predicting eclipse bug lifetimes. In:  \emph{Proceedings of the
+  Fourth International Workshop on Mining Software Repositories}. [S.l.: s.n.],
+  2007.  (MSR '07), p.~29--.}
+
+\bibitem[Rahman e Rigby 2015]{rahman2015release}
+\abntrefinfo{Rahman e Rigby}{RAHMAN; RIGBY}{2015}
+{RAHMAN, M.~T.; RIGBY, P.~C. Release stabilization on linux and chrome.
+\emph{IEEE Software}, v.~32, n.~2, 2015.}
+
+\bibitem[Romano et al. 2006]{romano_2006}
+\abntrefinfo{Romano et al.}{ROMANO et al.}{2006}
+{ROMANO, J. et al. Should we really be using t-test and cohen's d for
+  evaluating group differences on the nsse and other surveys? In:  \emph{Annual
+  meeting of the Florida Association of Institutional Research}. [S.l.: s.n.],
+  2006.}
+
+\bibitem[Saha, Khurshid e Perry 2014]{Saha2014}
+\abntrefinfo{Saha, Khurshid e Perry}{SAHA; KHURSHID; PERRY}{2014}
+{SAHA, R.; KHURSHID, S.; PERRY, D. An empirical study of long lived bugs. In:
+  \emph{2014 Software Evolution Week - IEEE Conference onSoftware Maintenance,
+  Reengineering and Reverse Engineering (CSMR-WCRE)}. [S.l.: s.n.], 2014. p.
+  144--153.}
+
+\bibitem[Sarle 1990]{sarle1990varclus}
+\abntrefinfo{Sarle}{SARLE}{1990}
+{SARLE, W. The varclus procedure.
+\emph{SAS/STAT User's Guide,}, 1990.}
+
+\bibitem[Schroter, Bettenburg e Premraj 2010]{schroter2010stack}
+\abntrefinfo{Schroter, Bettenburg e Premraj}{SCHROTER; BETTENBURG;
+  PREMRAJ}{2010}
+{SCHROTER, A.; BETTENBURG, N.; PREMRAJ, R. Do stack traces help developers fix
+  bugs? In:  \emph{Mining Software Repositories (MSR), 2010 7th IEEE Working
+  Conference on}. [S.l.: s.n.], 2010. p. 118--121.}
+
+\bibitem[Shihab et al. 2010]{shihab2010predicting}
+\abntrefinfo{Shihab et al.}{SHIHAB et al.}{2010}
+{SHIHAB, E. et al. Predicting re-opened bugs: A case study on the eclipse
+  project. In:  IEEE. \emph{Proceedings of 17th Working Conference on Reverse
+  Engineering (WCRE)}. [S.l.], 2010. p. 249--258.}
+
+\bibitem[Souza, Chavez e Bittencourt 2015]{souzabackout}
+\abntrefinfo{Souza, Chavez e Bittencourt}{SOUZA; CHAVEZ; BITTENCOURT}{2015}
+{SOUZA, R.; CHAVEZ, C.; BITTENCOURT, R. Rapid releases and patch backouts: A
+  software analytics approach. In:  \emph{IEEE Software Journal}. [S.l.]: IEEE,
+  2015. v.~32, n.~2, p. 89--96.}
+
+\bibitem[Souza, Chavez e Bittencourt 2014]{souza2014rapid}
+\abntrefinfo{Souza, Chavez e Bittencourt}{SOUZA; CHAVEZ; BITTENCOURT}{2014}
+{SOUZA, R.; CHAVEZ, C.; BITTENCOURT, R.~A. Do rapid releases affect bug
+  reopening? a case study of firefox. In:  IEEE. \emph{Proceedings of the
+  Brazilian Symposium on Software Engineering (SBES)}. [S.l.], 2014. p.
+  31--40.}
+
+\bibitem[Spearman 1904]{spearman1904proof}
+\abntrefinfo{Spearman}{SPEARMAN}{1904}
+{SPEARMAN, C. The proof and measurement of association between two things.
+\emph{The American journal of psychology}, JSTOR, v.~15, n.~1, p. 72--101,
+  1904.}
+
+\bibitem[Steel e James 1960]{steel1960principles}
+\abntrefinfo{Steel e James}{STEEL; JAMES}{1960}
+{STEEL, R.~G.; JAMES, H. \emph{Principles and procedures of statistics: with
+  special reference to the biological sciences}.
+[S.l.], 1960.}
+
+\bibitem[Subramaniam, Sen e Nelson 2009]{subramaniam2009determinants}
+\abntrefinfo{Subramaniam, Sen e Nelson}{SUBRAMANIAM; SEN; NELSON}{2009}
+{SUBRAMANIAM, C.; SEN, R.; NELSON, M.~L. Determinants of open source software
+  project success: A longitudinal study. In:  \emph{Journal of Decision Support
+  Systems}. [S.l.]: Elsevier, 2009. v.~46, n.~2, p. 576--585.}
+
+\bibitem[Tian et al. 2015]{tian2015unreliability}
+\abntrefinfo{Tian et al.}{TIAN et al.}{2015}
+{TIAN, Y. et al. On the unreliability of bug severity data.
+\emph{Empirical Software Engineering}, Springer, p. 1--26, 2015.}
+
+\bibitem[Weib et al. 2007]{Weib2007}
+\abntrefinfo{Weib et al.}{WEIB et al.}{2007}
+{WEIB, C. et al. How long will it take to fix this bug? In:  \emph{Proceedings
+  of the Fourth International Workshop on Mining Software Repositories}. [S.l.:
+  s.n.], 2007.  (MSR '07), p.~1--.}
+
+\bibitem[Wilks 2011]{wilks2011statistical}
+\abntrefinfo{Wilks}{WILKS}{2011}
+{WILKS, D.~S. Statistical methods in the atmospheric sciences. In:  . [S.l.]:
+  Academic press, 2011. v.~100.}
+
+\bibitem[Zhang et al. 2012]{Zhang2012}
+\abntrefinfo{Zhang et al.}{ZHANG et al.}{2012}
+{ZHANG, F. et al. An empirical study on factors impacting bug fixing time. In:
+  \emph{Reverse Engineering (WCRE), 2012 19th Working Conference on}. [S.l.:
+  s.n.], 2012. p. 225--234.}
+
+\bibitem[Zhang, Gong e Versteeg 2013]{Zhang2013}
+\abntrefinfo{Zhang, Gong e Versteeg}{ZHANG; GONG; VERSTEEG}{2013}
+{ZHANG, H.; GONG, L.; VERSTEEG, S. Predicting bug-fixing time: An empirical
+  study of commercial software projects. In:  \emph{Proceedings of the 2013
+  International Conference on Software Engineering}. [S.l.: s.n.], 2013.  (ICSE
+  '13), p. 1042--1051.}
+
+\end{thebibliography}

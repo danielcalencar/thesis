@@ -1,0 +1,52 @@
+% resumo em inglês
+\begin{resumo}[Abstract]
+ \begin{otherlanguage*}{english}
+
+	 The timely delivery of addressed software issues (i.e., bug fixes,
+	 enhancements, and new features) is what drives software development.
+	 Previous research has investigated what impacts the time to triage and
+	 address (or fix) issues. Nevertheless, even though an issue is
+	 addressed, \ie a solution is coded and tested, such an issue may still
+	 suffer delay before being delivered to end users. Such delays are
+	 frustrating, since end users care most about when an addressed issue is
+	 available in the software system (i.e, released). In this matter, there
+	 is a lack of empirical studies that investigate why addressed issues
+	 take longer to be delivered compared to other issues. In this thesis,
+	 we perform empirical studies to understand which factors are associated
+	 with the delayed delivery of addressed issues. In our studies, we find
+	 that 34\% to 98\% of the addressed issues of the ArgoUML, Eclipse and
+	 Firefox projects have their integration delayed by at least one
+	 release. Our explanatory models achieve ROC areas above 0.74 when
+	 explaining delivery delay. We also find that the workload of
+	 integrators and the moment at which an issue is addressed are the
+	 factors with the strongest association with delivery delay.  We also
+	 investigate the impact of rapid release cycles on the delivery delay of
+	 addressed issues. Interestingly, we find that rapid release cycles of
+	 Firefox are not related to faster delivery of addressed issues. Indeed,
+	 although rapid release cycles address issues faster than traditional
+	 ones, such addressed issues take longer to be delivered. Moreover, we find
+	 that rapid releases deliver addressed issues more consistently than
+	 traditional ones. Finally, we survey 37 developers of the ArgoUML,
+	 Eclipse, and Firefox projects to understand why delivery delays occur.
+	 We find that the allure of delivering addressed issues more quickly to
+	 users is the most recurrent motivator of switching to a rapid release
+	 cycle. Moreover, the possibility of improving the flexibility and quality of
+	 addressed issues is another advantage that are perceived by our
+	 participants. Additionally, the perceived reasons for the delivery
+	 delay of addressed issues are related to decision making, team
+	 collaboration, and risk management activities. Moreover, delivery delay
+	 likely leads to user/developer frustration according to our
+	 participants. Our thesis is the first work to study such an important
+	 topic in modern software development. Our studies highlight the
+	 complexity of delivering issues in a timely fashion (for instance,
+	 simply switching to a rapid release cycle is not a silver bullet that
+	 would guarantee the quicker delivery of addressed issues).
+
+   \vspace{\onelineskip}
+ 
+   \noindent 
+   \textbf{Keywords}: Addressed Issues. Delivery Delay. Mining Software
+   Sepositories. Software Maintenance.
+ \end{otherlanguage*}
+\end{resumo}
+

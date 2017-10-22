@@ -1,0 +1,63 @@
+\chapter[Related Work]{Related Work} \label{chapter7}
+
+In this chapter, we survey related research with respect to this thesis. Since
+the studies that we perform in this thesis are related to {\em reasons for
+delivery delay} (Theme~I) and {\em impact of release strategies on delivery
+delay} (Theme~II), we present related work with respect to each studied theme.
+
+Jiang \etal \cite{Jiang2013} studied attributes that could determine the
+acceptance and integration of a patch into the Linux kernel. A patch is a record
+of changes that is applied to a software system to address an issue. To identify
+such attributes, the authors built decision tree models and conducted top node
+analysis. Among the studied attributes, developer experience, patch maturity,
+and prior subsystem are found to play a major role in patch acceptance and
+integration time. 
+
+Choetkiertikul~\etal~\cite{riskyissues2015a,riskyissues2015b} study the risk of
+issues introducing delays that can postpone the shipment of new releases of a
+software project. The authors use local attributes (\ie attributes that can be
+collected in the issue report itself) and network attributes (\ie attributes
+that are extracted from the relationship between issues) to perform their
+analyses.
+
+Similar to Jiang \etal\cite{Jiang2013}, we also investigate the integration of
+addressed issues. However, we focus on the frequency and reasons as to why
+delivery delays occur for issues that are already addressed rather than the
+probability to accept a particular patch. Differently from
+Choetkiertikul~\etal~\cite{riskyissues2015a,riskyissues2015b}, we study the
+attributes that may induce addressed issues to be prevented from delivery rather
+than the risk of postponing an upcoming release.
+
+Shifting from traditional releases to rapid releases has been shown to have an
+impact on software quality and quality assurance activities.
+M\"antyl\"a~\etal~\cite{mantyla2014rapid} found that rapid releases have more
+tests executed per day but with less coverage. The authors also found that the
+number of testers decreased in rapid releases, which increased the test
+workload.  Souza~\etal~\cite{souza2014rapid} found that the number of reopened
+bugs increased by 7\% when Firefox changed to a rapid release cycle.
+Souza~\etal~\cite{souzabackout} found that backout of commits increased when
+rapid releases were adopted.  However, they note that such results may be due to
+changes in the development process rather than the rapid release cycle---the
+backout culture was not widely adopted during the traditional Firefox releases.
+We also investigate the shift from traditional releases to rapid releases in
+this thesis. However, we analyze delivery delay rather than quality and quality
+assurance activities.
+
+It is not clear yet if rapid releases lead to a faster rate of bugs fixes.
+Baysal~\etal~\cite{baysal2011tale} found that bugs are fixed faster in Firefox
+traditional releases when compared to fixes in the Chrome rapid releases. On the
+other hand, Khomh~\etal~\cite{khomh2012faster} found that bugs that are
+associated with crash reports are fixed faster in rapid Firefox releases when
+compared to Firefox traditional releases.  However, fewer bugs are fixed in
+rapid releases, proportionally. Our study corroborates that issues are addressed
+more quickly in rapid release cycles, but tend to wait longer to be delivered to
+the end users.
+
+Rapid releases may cause users to adopt new versions of the software earlier.
+Baysal~\etal \cite{baysal2011tale} found that users of the Chrome browser are
+more likely to adopt new versions of the system when compared to traditional
+Firefox releases. Khomh~\etal \cite{khomh2012faster} also found that the new
+versions of Firefox that were developed using rapid releases were adopted more
+quickly than the versions under traditional releases. In this thesis, we
+investigate the impact that a shift from traditional to rapid releases has on
+delivering addressed issues to users rather than user adoption of new releases.

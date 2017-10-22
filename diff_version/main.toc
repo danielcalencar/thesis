@@ -1,0 +1,120 @@
+\changetocdepth {4}
+\select@language {english}
+\select@language {english}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introduction}}{13}{chapter.1}
+\contentsline {section}{\numberline {1.1}Problem Statement}{13}{section.1.1}
+\contentsline {section}{\numberline {1.2}Current Research Limitations}{14}{section.1.2}
+\contentsline {section}{\numberline {1.3}Thesis Proposal}{14}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Study~1---How frequent is delivery delay?}{15}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Study~2---Do rapid releases reduce delivery delays?}{16}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}Study~3---Why do delivery delays occur?}{16}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {1.3.4}{\color {blue}\uwave {Studies Chronology}}}{16}{subsection.1.3.4}
+\contentsline {section}{\numberline {1.4}Thesis Contributions}{17}{section.1.4}
+\contentsline {section}{\numberline {1.5}Thesis Organization}{18}{section.1.5}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Background}}{19}{chapter.2}
+\contentsline {section}{\numberline {2.1}Issue Reports}{19}{section.2.1}
+\contentsline {section}{\numberline {2.2}Triaging Issues}{20}{section.2.2}
+\contentsline {section}{\numberline {2.3}Addressing Issues}{21}{section.2.3}
+\contentsline {section}{\numberline {2.4}Integrating Issues}{22}{section.2.4}
+\contentsline {section}{\numberline {2.5}Delivery Delay}{22}{section.2.5}
+\contentsline {section}{\numberline {2.6}Release Cycles}{23}{section.2.6}
+\contentsline {section}{\numberline {2.7}Chapter Summary}{24}{section.2.7}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {How Frequent is Delivery Delay?}}{25}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{25}{section.3.1}
+\contentsline {section}{\numberline {3.2}Methodology}{27}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Subjects}{27}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Data Collection}{31}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Results}{35}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}RQ1: How often are addressed issues prevented from being released?}{35}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}RQ2: Does the stage of the release cycle impact delivery delay?}{39}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}RQ3: How well can we model the delivery delay of addressed issues?}{43}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}RQ4: What are the most influential attributes for modeling delivery delay?}{53}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.5}RQ5: How well can we identify the addressed issues that will suffer from a prolonged delivery delay?}{61}{subsection.3.3.5}
+\contentsline {subsection}{\numberline {3.3.6}RQ6: What are the most influential attributes for identifying the issues that will suffer from a prolonged {\color {red}\sout {integration time}}{\color {blue}\uwave {delivery delay}}?}{64}{subsection.3.3.6}
+\contentsline {section}{\numberline {3.4}Discussion}{65}{section.3.4}
+\contentsline {section}{\numberline {3.5}Exploratory Data Analysis}{68}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Backlog of Issues per Addressed Issue}{68}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Practical Suggestions}{69}{subsection.3.5.2}
+\contentsline {section}{\numberline {3.6}Threats to Validity}{69}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}Construct Validity}{69}{subsection.3.6.1}
+\contentsline {subsection}{\numberline {3.6.2}Internal Validity}{69}{subsection.3.6.2}
+\contentsline {subsection}{\numberline {3.6.3}External Validity}{71}{subsection.3.6.3}
+\contentsline {section}{\numberline {3.7}Conclusions}{71}{section.3.7}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Do Rapid Releases Reduce Delivery Delay?}}{73}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{73}{section.4.1}
+\contentsline {section}{\numberline {4.2}Methodology}{75}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Subjects}{75}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Data Collection}{75}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Results}{77}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}RQ1: Are addressed issues delivered more quickly in rapid releases?}{77}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}RQ2: Why can traditional releases deliver addressed issues more quickly?}{81}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}RQ3: Did the change in the release strategy have an impact on the characteristics of delayed issues?}{83}{subsection.4.3.3}
+\contentsline {section}{\numberline {4.4}Analysis of Potential Confounding Factors}{91}{section.4.4}
+\contentsline {section}{\numberline {4.5}Practical Suggestions}{93}{section.4.5}
+\contentsline {section}{\numberline {4.6}Threats to Validity}{94}{section.4.6}
+\contentsline {section}{\numberline {4.7}Conclusions}{95}{section.4.7}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Why do Delivery Delays Occur?}}{97}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{97}{section.5.1}
+\contentsline {section}{\numberline {5.2}Methodology}{98}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Subjects}{98}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Data collection}{99}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Research Approach}{101}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}{\color {red}\sout {Exploratory Analysis}}{\color {blue}\uwave {Demographics}}}{102}{subsection.5.2.4}
+\contentsline {section}{\numberline {5.3}Results}{104}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}RQ1: What are developers' perceptions as to why {\color {red}\sout {integration }}{\color {blue}\uwave {delivery }}delays occur?}{104}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}RQ2: What are {\color {red}\sout {developers' perceptions }}{\color {blue}\uwave {the perceived impacts }}of {\color {red}\sout {shifting to a }}rapid {\color {red}\sout {release cycle}}{\color {blue}\uwave {releases on delivery delays}}?}{110}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}RQ3: {\color {red}\sout {To what extent do developers }}{\color {blue}\uwave {Do participants }}agree with our quantitative findings about delivery delay?}{112}{subsection.5.3.3}
+\contentsline {section}{\numberline {5.4}{\color {red}\sout {Threats to Validity}}{\color {blue}\uwave {Study limitations}}}{115}{section.5.4}
+\contentsline {section}{\numberline {5.5}Conclusions}{115}{section.5.5}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Related Work}}{117}{chapter.6}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase {Conclusions}}{119}{chapter.7}
+\contentsline {section}{\numberline {7.1}Contributions and Findings}{119}{section.7.1}
+\contentsline {section}{\numberline {7.2}Future Work}{121}{section.7.2}
+\vspace {\cftbeforechapterskip }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{\uppercase {Bibliography}}{122}{section*.72}
+\renewcommand *{\cftappendixname }{APPENDIX \space }
+\setlength {\cftpartindent }{\cftlastnumwidth } \setlength {\cftpartnumwidth }{2em}
+\cftinsert {A}
+\contentsline {part}{\uppercase {Appendix}}{127}{section*.73}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Firefox Survey}}{128}{appendix.A}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {ArgoUML Survey}}{135}{appendix.B}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase {Eclipse Survey}}{143}{appendix.C}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {D}\MakeTextUppercase {Methodology Web Page I}}{151}{appendix.D}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {E}\MakeTextUppercase {Methodology Web Page II}}{152}{appendix.E}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {F}\MakeTextUppercase {{\color {blue}\uwave {Invitation Letter}}}}{153}{appendix.F}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {G}\MakeTextUppercase {{\color {blue}\uwave {Interview Script}}}}{154}{appendix.G}
+\vspace {\cftbeforechapterskip }

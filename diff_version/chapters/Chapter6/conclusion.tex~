@@ -1,0 +1,46 @@
+\section{Conclusions} \label{ch6:conclusion}
+
+In this study, we survey 37 participants from the Firefox, ArgoUML,
+and Eclipse projects. We make the following observations:
+
+\begin{itemize}
+
+      \item  The perceived reasons for delivery delay of addressed issues
+      	are primarily related to activities such as development, decision making, team
+      	collaboration, and risk management (see
+      	\hyperref[find]{Findings}~\ref{find25},~\ref{find26},~\ref{find27},~and~\ref{find28}).
+	We also observe that frustration is a key perceived consequence of
+	dleivery delays (see \hyperref[th:4]{Theme}~\ref{find29}.
+
+      \item  The dependency of issues on other projects and team workload are
+	      the main perceived reasons to explain our data about delivery
+	      delay in general (see \hyperref[find34]{Finding}~\ref{find34}).  
+      	
+      \item  The allure of delivering addressed issues more quickly to users is
+	      the most recurrent motivator for switching to a rapid release
+	      cycle (see \hyperref[find32]{Finding}~\ref{find32}). In addition, the
+	      allure of improving management flexibility and quality of
+	      addressed issues are other advantages that are perceived by our
+	      participants (see
+	      \hyperref[find31]{Findings}~\ref{find31}~and~\ref{find33}).
+
+      \item Integration rush and the increased time that is spent on polishing
+	      addressed issues (during rapid releases) emerge as main
+	      explanations as to why traditional releases may achieve shorter
+	      delivery delays (see \hyperref[find35]{Finding}~\ref{find35}).
+
+\end{itemize}
+
+Today the Firefox project is often used in support of proposals for moving to a
+rapid release cycle throughout many development organizations worldwide. Yet
+there has never been any studies that extensively explored the benefits and
+challenges (regarding delivery delays) of rapid release cycles on any project
+(till our work).  In this regard, our quantitative and qualitative observations
+may serve any organization that is interested in adopting a rapid release cycle.
+For instance, even though the allure of delivering addressed issues more quickly
+is the most recurrent motivator to adopt rapid releases
+(\hyperref[find32]{Finding}~\ref{find32}), we observe that this often is not achieved
+(\hyperref[find18]{Finding}~\ref{find18}). In summary, our study provides real
+observations and offers a wider context of the dis/advantages of adopting a
+rapid release strategy.
+

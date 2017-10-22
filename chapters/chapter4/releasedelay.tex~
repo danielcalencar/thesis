@@ -1,0 +1,16 @@
+\section{Results for Study 1}\label{ch4:study1} 
+
+In this section, we present the results with respect to the \textit{concrete
+integration time} dimension. This dimension involves the investigation of
+integration time in terms of number of releases and number of days
+(\hyperref[def:1]{Definitions}~\ref{def:1} and \ref{def:2}). This dimension is
+comprised of \hyperref[ch4:rq1]{RQ1}-\hyperref[ch4:rq4]{RQ4}. Below, we present the
+obtained results for each RQ. 
+
+%here goes RQ1, RQ2, and RQ3
+
+\input{chapters/chapter4/rq1}
+\input{chapters/chapter4/rq2}
+\input{chapters/chapter4/rq3}
+\input{chapters/chapter4/rq4}
+

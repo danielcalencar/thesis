@@ -1,0 +1,66 @@
+\section{Conclusions}\label{ch4:conclusion} Once an issue is
+addressed, what users and code contributors care most about is when the software
+is going to reflect such an addressed issue, \ie when such an addressed issue is
+delivered. However, we observed that the integration of several addressed issues
+was prevented for a considerable amount of time. In this context, it is not clear why certain
+addressed issues take longer to be integrated than others. We performed
+an empirical study of 20,995 issues from the ArgoUML, Eclipse and Firefox
+projects. In our study, we:
+\\
+	\begin{itemize}
+		\item despite being addressed well before an upcoming release, 34\% to
+			60\% of the addressed issues are not integrated in more than one
+			release in the ArgoUML and Eclipse projects. Furthermore, 98\%
+			of the Firefox project issues had their integration delayed by
+			at least one release. \\
+
+		\item train random forest models to model the integration
+			time of an addressed issue. Our models obtain a
+			median AUC values between 0.62 to 0.96. Our models
+			outperform baseline random and Zero-R models. \\
+
+		\item compute variable importance 
+			to understand which attributes are the most important in
+			our random forest models to study delivery delay.
+			Heuristics that estimate the effort that teams invest in
+			fixing issues are the most influential in
+			our models to study delivery delay in terms of number of
+			releases. \\
+			
+		\item find that, surprisingly, \textit{priority} and
+			\textit{severity} have little impact on our exploratory
+			models for delivery delay.
+			Indeed, 36\% to 97\% of priority P1 addressed issues
+			were delayed by at least one release. \\ 
+
+		\item find that a shorter delivery delay is associated with
+			fixes that are performed during more controlled stages
+			of a given release cycle.\\
+
+		\item observe that the time at which issues are addressed and the
+			resolvers of the issues have great impact on estimating
+			the delivery delay of an addressed issue.  Our explanatory
+			models obtain $R^2$ values between 0.39 to 0.65. \\
+
+		\item verify that our models that identify addressed issues that
+			have a prolonged delivery delay outperform random
+			guessing and Zero-R models, obtaining AUC values of 0.82~to~0.96.\\
+
+		\item find that the time at which an issue is addressed (queue
+			position), the integration workload (in terms of the
+			backlog of addressed issues), and the
+			heuristics that estimate the effort that teams invest in
+			fixing issues (fixing time per resolver), are the
+			most influential attributes for issues that have 
+			a prolonged delivery delay. \\
+
+	\end{itemize}
+
+Our work provides insights as to why some addressed issues are integrated prior
+to others. Our results suggest that characteristics of the release cycle are the
+ones that have the largest impact on delivery delay. Therefore, our findings
+highlight the importance of future research and tooling that can support
+integrators of software projects. It is important to improve the integration
+stage of a release cycle, since the availability of an addressed issue in a
+release is what users and contributors care most about. 
+

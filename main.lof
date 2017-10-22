@@ -1,0 +1,77 @@
+\select@language {english}
+\select@language {english}
+\contentsline {figure}{\numberline {1}{\ignorespaces An overview of the scope of the thesis.\relax }}{16}{figure.caption.7}
+\contentsline {figure}{\numberline {2}{\ignorespaces An overview of an issue's life cycle.\relax }}{21}{figure.caption.8}
+\contentsline {figure}{\numberline {3}{\ignorespaces An illustrative example of how we compute delivery delays.\relax }}{24}{figure.caption.9}
+\contentsline {figure}{\numberline {4}{\ignorespaces \textbf {Exploratory analysis of the studied projects.} We present the ratio of addressed issues per priority, severity, and the ratio of addressed vs. not addressed yet issues (\textit {e.g.},~\textit {WONTFIX} or \textit {WORKSFORME})\relax }}{29}{figure.caption.10}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Priority values}}}{29}{subfigure.4.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Severity values. The ArgoUML project does not use the severity field}}}{29}{subfigure.4.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Fixed issues vs. Not fixed yet}}}{29}{subfigure.4.3}
+\contentsline {figure}{\numberline {5}{\ignorespaces \textbf {Data collection.} An overview of our approach to collect the needed data for studying delivery delay.\relax }}{33}{figure.caption.12}
+\contentsline {figure}{\numberline {6}{\ignorespaces \textbf {Distribution of addressed issues per bucket.} The issues are grouped into \textit {next}, \textit {after-1}, \textit {after-2}, and \textit {after-3-or-more} buckets.\relax }}{35}{figure.caption.13}
+\contentsline {figure}{\numberline {7}{\ignorespaces \textbf {Delivery delay in terms of days.} The medians are 166, 107, and 146 days for the Eclipse, Firefox, and ArgoUML projects, respectively. \relax }}{35}{figure.caption.14}
+\contentsline {figure}{\numberline {8}{\ignorespaces \textbf {Number of days between the studied releases of the ArgoUML, Eclipse, and Firefox projects.} The number shown over each boxplot is the median interval.\relax }}{37}{figure.caption.15}
+\contentsline {figure}{\numberline {9}{\ignorespaces \textbf {Fix timing metric.} We present the distribution of the \textit {fix timing} metric for addressed issues that are prevented from delivery in at least one release.\relax }}{39}{figure.caption.16}
+\contentsline {figure}{\numberline {10}{\ignorespaces \textbf {delivery delay during release cycle stages.} Issues that are addressed during more stable stages of a release cycle are likely to have a shorter delivery delay\relax }}{42}{figure.caption.17}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Eclipse}}}{42}{subfigure.10.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Firefox}}}{42}{subfigure.10.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {ArgoUML}}}{42}{subfigure.10.3}
+\contentsline {figure}{\numberline {11}{\ignorespaces \textbf {{\em Fix timing} values for the code freeze period.} The median {\em fix timing} values drop from 0.45 and 0.52 to 0.41 and 0.35 in the Eclipse and ArgoUML projects, respectively. \relax }}{43}{figure.caption.19}
+\contentsline {figure}{\numberline {12}{\ignorespaces \textbf {Training regression models.} We follow the guidelines that are provided by Harrell~Jr.~\cite {harrell2001regression} to train regression models, which involves nine activities, from data collection to model validation. The results of Steps 6.2 and is presented in \hyperref [ch4:rq4]{RQ4}.\relax }}{49}{figure.caption.26}
+\contentsline {figure}{\numberline {13}{\ignorespaces \textbf {Performance of random forest models.} We show the values of Precision, Recall, F-measure, and AUC that are computed using the LOOCV technique.\relax }}{52}{figure.caption.27}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Eclipse}}}{52}{subfigure.13.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Firefox}}}{52}{subfigure.13.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {ArgoUML}}}{52}{subfigure.13.3}
+\contentsline {figure}{\numberline {14}{\ignorespaces \textbf {Variable importance scores.} We show the importance scores that are computed for the LOOCV of our models.\relax }}{56}{figure.caption.30}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Eclipse}}}{56}{subfigure.14.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Firefox}}}{56}{subfigure.14.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {ArgoUML}}}{56}{subfigure.14.3}
+\contentsline {figure}{\numberline {15}{\ignorespaces \textbf {The spread of issues among the Firefox components.} The darker the colors, the smaller the proportion of issues that impact that component.\relax }}{57}{figure.caption.31}
+\contentsline {figure}{\numberline {16}{\ignorespaces \textbf {The percentage of priority and severity levels in each studied bucket of delivery delay.} We expect to see light colour in the upper left corner of these graphs, indicating that high priority/severity issues are delivered quickly. Surprisingly, we are not seeing such a pattern in our datasets.\relax }}{58}{figure.caption.32}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {ArgoUML Priority}}}{58}{subfigure.16.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Eclipse Priority}}}{58}{subfigure.16.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Firefox Priority}}}{58}{subfigure.16.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Eclipse Severity}}}{58}{subfigure.16.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {Firefox Severity}}}{58}{subfigure.16.5}
+\contentsline {figure}{\numberline {17}{\ignorespaces \textbf {Delivery delay per component.} The Figure shows the distributions of delivery delay in terms of days for each component of the studied projects. \relax }}{61}{figure.caption.35}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Eclipse}}}{61}{subfigure.17.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Firefox}}}{61}{subfigure.17.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {ArgoUML}}}{61}{subfigure.17.3}
+\contentsline {figure}{\numberline {18}{\ignorespaces \textbf {Relationship between delivery delay in terms of releases and days.} We observe that a longer delivery delay in terms of releases is associated with a longer delivery delay in terms of days.\relax }}{63}{figure.caption.36}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Eclipse}}}{63}{subfigure.18.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Firefox}}}{63}{subfigure.18.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {ArgoUML}}}{63}{subfigure.18.3}
+\contentsline {figure}{\numberline {19}{\ignorespaces \textbf {Addressed issues that have a prolonged delivery delay.} We present the proportion of addressed issues that have a prolonged delivery delay per project. 13\%, 12\%, and 22\% of the addressed issues of the Eclipse, Firefox, and ArgoUML projects have a prolonged delivery delay, respectively.\relax }}{64}{figure.caption.37}
+\contentsline {figure}{\numberline {20}{\ignorespaces \textbf {Variable importance scores.} We show the importance scores that are computed for the LOOCV of our models.\relax }}{66}{figure.caption.40}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Eclipse}}}{66}{subfigure.20.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Firefox}}}{66}{subfigure.20.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {ArgoUML}}}{66}{subfigure.20.3}
+\contentsline {figure}{\numberline {21}{\ignorespaces \textbf {Backlog of issues per addressed issue of the current release cycle.} The median number of concurrent fixes per addressed issue for the Eclipse, Firefox, and ArgoUML projects are 3, 2, and 1, respectively.\relax }}{68}{figure.caption.41}
+\contentsline {figure}{\numberline {22}{\ignorespaces Overview of the process to construct the dataset that is used in our \hyperref [st:study3]{Study}~\ref {st:study3}. \relax }}{75}{figure.caption.42}
+\contentsline {figure}{\numberline {23}{\ignorespaces A simplified life cycle of an issue.\relax }}{78}{figure.caption.44}
+\contentsline {figure}{\numberline {24}{\ignorespaces Time spans of the phases involved in the lifetime of an issue.\relax }}{79}{figure.caption.45}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Lifetime}}}{79}{subfigure.24.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Triaging phase}}}{79}{subfigure.24.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Fixing phase}}}{79}{subfigure.24.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Integration phase}}}{79}{subfigure.24.4}
+\contentsline {figure}{\numberline {25}{\ignorespaces Distributions of delivery delay of addressed issues grouped by minor and major releases. \relax }}{81}{figure.caption.46}
+\contentsline {figure}{\numberline {26}{\ignorespaces Release frequency (in days). The outliers in figure~(b) represent the major-traditional releases.\relax }}{82}{figure.caption.47}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Only Major}}}{82}{subfigure.26.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Major and Minor}}}{82}{subfigure.26.2}
+\contentsline {figure}{\numberline {27}{\ignorespaces Overview of the process that we use to build our explanatory models.\relax }}{83}{figure.caption.51}
+\contentsline {figure}{\numberline {28}{\ignorespaces The relationship between metrics and delivery delay. The blue line shows the values of our model fit, whereas the grey area shows the 95\% confidence interval based on models fit to 1,000 bootstrap samples. The parentheses indicate the release strategy to which the metric is related. \relax }}{89}{figure.caption.53}
+\contentsline {figure}{\numberline {29}{\ignorespaces Nomogram of our explanatory models for the traditional release cycle.\relax }}{90}{figure.caption.54}
+\contentsline {figure}{\numberline {30}{\ignorespaces Nomogram of our explanatory models for the rapid release cycle.\relax }}{91}{figure.caption.55}
+\contentsline {figure}{\numberline {31}{\ignorespaces Size of the addressed issues in the traditional and rapid release data.\relax }}{91}{figure.caption.56}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Files}}}{91}{subfigure.31.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {LOC}}}{91}{subfigure.31.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Packages}}}{91}{subfigure.31.3}
+\contentsline {figure}{\numberline {32}{\ignorespaces We group the addressed issues into ``bugs'' and ``enhancements'' by using the \textit {severity} field. However, the difference in the delivery delay between release strategies is unlikely to be related with the type of the issue.\relax }}{92}{figure.caption.57}
+\contentsline {figure}{\numberline {33}{\ignorespaces Software development experience of the participants.\relax }}{101}{figure.caption.60}
+\contentsline {figure}{\numberline {34}{\ignorespaces Development experience of the participants in the respective project.\relax }}{101}{figure.caption.61}
+\contentsline {figure}{\numberline {35}{\ignorespaces Experience of the participants with respect to rapid release cycles.\relax }}{102}{figure.caption.62}
+\contentsline {figure}{\numberline {36}{\ignorespaces An overview of the roles of the participants. One participant may have more than one role.\relax }}{102}{figure.caption.63}
+\contentsline {figure}{\numberline {37}{\ignorespaces Participants' perception on how frequent is delivery delay. The data is grouped by proportions of how many addressed issues are included in the next possible release. This data refers to the responses to {\em question~\#6}.\relax }}{103}{figure.caption.64}
+\contentsline {figure}{\numberline {38}{\ignorespaces Frequency of ranks per factor.\relax }}{106}{figure.caption.65}
+\contentsline {figure}{\numberline {39}{\ignorespaces Distribution of number of comments normalized by the number of reported issues.\relax }}{107}{figure.caption.67}
+\contentsline {figure}{\numberline {40}{\ignorespaces Proportion of addressed issues that have their delivery delayed by a given number of releases. For example, 89\% of the addressed issues skip two Firefox stable releases before being shipped to users (this chart was already presented in \hyperref [ch:study12]{Chapter}~\ref {ch:study12}. \relax }}{111}{figure.caption.69}
